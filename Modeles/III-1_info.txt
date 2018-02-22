@@ -1,0 +1,6 @@
+Pour le rdp de la II.1-1) :
+x 	= [2 , 2]
+y 	= [4 , 4]
+di 	= [2 , 4]
+
+Problème : 

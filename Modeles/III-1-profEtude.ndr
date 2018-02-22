@@ -1,0 +1,30 @@
+p 410.0 220.0 p2 0 e POSER ne
+t 320.0 220.0 t2 4 4 n
+p 30.0 220.0 p7 0 se PRISE ne
+t 30.0 130.0 t5 4 4 e
+p 30.0 50.0 p0 1 se
+t 220.0 50.0 t0 c 0 w n OPERATEUR n
+t 410.0 130.0 t1 c 2 2 w CTR e
+t 130.0 220.0 t4 2 -5 n
+p 410.0 50.0 p1 0 se DEPLACER n
+p 220.0 220.0 p3 0 se Oi n
+t 160.0 315.0 t3 4 4 e
+p 90.0 370.0 p4 0 se ALARME w
+p 270.0 300.0 p5 0 n
+e p3 t3 1 n
+e p5 t3 1 n
+e t2 p5 1 n
+e p0 t0 1 n
+e t0 p1 1 n
+e p1 t1 1 n
+e t1 p2 1 n
+e p2 t2 1 n
+e t2 p3 1 n
+e t3 p4 1 n
+e p3 t4 1 n
+e t4 p7 1 n
+e p7 t5 1 n
+e t5 p0 1 n
+h {III-1-profEtude}
+
+
