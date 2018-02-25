@@ -1,43 +1,41 @@
-t 119.0 423.0 t2 c 0 w n FinPrendre e
-t 119.0 728.0 t4 c 0 w n FinPose e
-p 119.0 493.0 p3 0 e {Avancer(2,1);} w
-t 119.0 113.0 t0 c 0 w n Operateur e
-p 119.0 188.0 p1 0 e {Avancer(1,1);} w
-t 119.0 248.0 t1 c 0 w n FinAvancer e
-p 119.0 338.0 p2 0 e {Prendre();} w
-p 119.0 658.0 p4 0 e {Poser();} w
-p 295.0 728.0 {p7-DebutO1} 0 e
-t 295.0 803.0 t6 15 15 e
-p 295.0 883.0 {p9-AFinO1} 0 e
-p 295.0 1013.0 {p12-Alarme} 0 e
-t 295.0 943.0 t7 1 1 e
-p 120.0 53.0 p0 1 n
-t 532.0 120.0 t5 c 0 w n FinRecule e
-t 534.0 267.0 t10 c 0 w n FinPrendre e
-p 534.0 332.0 p17 0 e {Avancer(2,1);} w
-t 534.0 412.0 t11 c 0 w n FinAvance e
-p 534.0 477.0 p18 0 e {Poser();} w
-t 534.0 552.0 t12 c 0 w n FinPose e
-p 490.0 610.0 p16 0 n
-p 532.0 50.0 p5 0 e {Reculer(2,1);} w
-p 532.0 190.0 p6 0 e {Prendre();} w
-p 703.0 472.0 p19_DebutO2 0 n
-t 778.0 472.0 t13 15 15 n
-p 858.0 472.0 {p20-} 0 n
-p 988.0 472.0 p21 0 n
-t 918.0 472.0 t14 1 1 n
-t 1088.0 472.0 t15 0 w n
-p 1188.0 472.0 p22 0 n
-t 119.0 583.0 t3 c 0 w n FinAvancer e
-p 638.0 1407.0 p13 0 n
-p 640.0 1335.0 p23 0 n
-p 650.0 1260.0 p24 0 n
-t 115.0 870.0 t16 0 w n
-p 115.0 960.0 p25 0 n {Prendre();} ne
+t 75.0 215.0 t2 c 0 w n FinPrendre e
+t 75.0 360.0 t4 c 0 w n FinPose e
+p 75.0 250.0 p3 0 e {Avancer(2,1);} w
+p 75.0 325.0 p4 0 e {Poser();} w
+p 75.0 400.0 {p7-DebutO1} 0 e
+p 75.0 475.0 {p9-AFinO1} 0 e
+t 420.0 140.0 t5 c 0 w n FinRecule e
+t 420.0 210.0 t10 c 0 w n FinPrendre e
+p 420.0 235.0 p17 0 e {Avancer(2,1);} w
+t 420.0 275.0 t11 c 0 w n FinAvance e
+p 420.0 305.0 p18 0 e {Poser();} w
+t 420.0 345.0 t12 c 0 w n FinPose e
+p 400.0 370.0 p16 0 n
+p 420.0 105.0 p5 0 e {Reculer(2,1);} n
+p 420.0 170.0 p6 0 e {Prendre();} w
+p 495.0 305.0 p19_DebutO2 0 n
+t 530.0 305.0 t13 15 15 n
+p 570.0 305.0 {p20-} 0 n
+p 630.0 305.0 p21 0 n
+t 595.0 305.0 t14 1 1 n
+t 675.0 305.0 t15 0 w n
+p 720.0 305.0 p22 0 n
+t 75.0 290.0 t3 c 0 w n FinAvancer e
+p 400.0 570.0 p13 0 n
+p 405.0 535.0 p23 0 n
+p 405.0 500.0 p24 0 n
+t 75.0 510.0 t16 0 w n
+p 75.0 555.0 p25 0 n {Prendre();} ne
+t 75.0 440.0 t7 0 w n
+t 75.0 70.0 t0 c 0 w n Operateur e
+p 75.0 105.0 p1 0 e {Avancer(2,1);} w
+t 75.0 130.0 t1 c 0 w n FinAvancer e
+p 75.0 175.0 p2 0 e {Prendre();} w
+p 75.0 35.0 p0 1 n
 e {p9-AFinO1} t16 1 n
 e t4 {p7-DebutO1} 1 n
 e t16 p25 1 n
-e t12 0.7414515127 93.13431162 p19_DebutO2 0.6226247294 47.38143096 1 n
+e t12 0.7417536733 43.94600089 p19_DebutO2 0.6254934056 21.95532735 1 n
 e p19_DebutO2 t13 1 n
 e t13 {p20-} 1 n
 e {p20-} t14 1 n
@@ -49,13 +47,8 @@ e t11 p18 1 n
 e p17 t11 1 n
 e t10 p17 1 n
 e p6 t10 1 n
-e t7 {p12-Alarme} 1 n
-e {p9-AFinO1} t7 1 n
-e t6 {p9-AFinO1} 1 n
-e {p7-DebutO1} t6 1 n
 e t5 p6 1 n
 e p5 t5 1 n
-e t4 0.7935058511 111.1260546 p5 0.4843956096 183.883115 1 n
 e p4 t4 1 n
 e t3 p4 1 n
 e p3 t3 1 n
@@ -65,6 +58,8 @@ e t1 p2 1 n
 e p1 t1 1 n
 e t0 p1 1 n
 e p0 t0 1 n
-h {III2-2}
+e {p7-DebutO1} t7 1 n
+e t7 {p9-AFinO1} 1 n
+h {III2-2} small
 
 
