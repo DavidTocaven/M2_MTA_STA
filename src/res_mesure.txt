@@ -1,0 +1,6 @@
+Initi --> e1	: 	1
+e1 --> e2		:	1
+e3 --> e4		:	1
+
+Prendre 		:	3
+Pose 			:	3	
