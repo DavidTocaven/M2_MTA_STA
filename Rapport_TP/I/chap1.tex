@@ -1,1 +1,13 @@
-\chapter{}
+\chapter{Modélisation et analyse de la réalisation d'une opération}
+Nous allons dans un premier temps réaliser une modélisation par réseau de Petri temporel de la réalisation d'une opération. Cette modélisation sera générique à la réalisation de toute opération $O_i$. Ensuite, nous réaliserons un code C qui permet d'estimer les durées des différentes opérations. Finalement, nous analyserons le réseau de Petri à l'aide de \emph{TINA 2.8.4}.
+
+\section{Modèle réseau de Petri temporel d'une opération}
+Nous avons, pour modélisation générique d'une opération, considéré que le chariot de déplacement se trouve en bas. Voici le réseau de Petri temporel (voir figure \ref{fig:RdPTempo_generique}) : 
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=.57\textwidth]{./I/images/III-1_V3.pdf}
+\caption{\label{fig:RdPTempo_generique}Modèle réseau de Petri générique d'une opération.}
+Sur ce modèle, l'alarme se déclenche si un jeton marque la place $p_4$, cela se produit si jamais le chariot n'est pas reprit avant a fin du temps 
+\end{figure}
+\section{Estimation de Prise/Pose et Avance/Recule}
+\section{Analyse du modèle}
