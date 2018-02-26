@@ -1,0 +1,135 @@
+Tina version 2.8.4 -- 10/27/06 -- LAAS/CNRS
+
+mode -W
+
+INPUT NET ------------------------------------------------------- 
+
+parsed net {III-1_v3}
+
+8 places, 7 transitions
+
+net {III-1_v3}
+tr t0 : OPERATEUR p0 -> p1 
+tr t1 : CTR [2,2] p1 -> p2 
+tr t2 p2 -> p3 p5 
+tr t3 [4,4] p5 -> p4 
+tr t4 : i p3 -> p7 
+tr t5 p5 p9 -> p0 
+tr t8 : y p7 -> p9 
+pl p0 (1)
+pl p1 : DEPLACER
+pl p2 : POSER
+pl p3 : {...}
+pl p4 : ALARME
+pl p7 : PRISE
+
+0.000s
+
+REACHABILITY ANALYSIS ------------------------------------------- 
+
+bounded
+
+9 classe(s), 11 transition(s)
+
+CLASSES:
+
+class 0
+    marking
+	p0
+    domain
+	0 <= t0
+
+class 1
+    marking
+	p1
+    domain
+	2 <= t1 <= 2
+
+class 2
+    marking
+	p2
+    domain
+	0 <= t2
+
+class 3
+    marking
+	p3 p5
+    domain
+	4 <= t3 <= 4
+	0 <= t4
+
+class 4
+    marking
+	p3 p4
+    domain
+	0 <= t4
+
+class 5
+    marking
+	p4 p7
+    domain
+	0 <= t8
+
+class 6
+    marking
+	p4 p9
+    domain
+
+class 7
+    marking
+	p5 p7
+    domain
+	0 <= t3 <= 4
+	0 <= t8
+
+class 8
+    marking
+	p5 p9
+    domain
+	0 <= t3 <= 4
+	0 <= t5
+
+
+REACHABILITY GRAPH:
+
+0 -> t0 in [0,w[/1
+1 -> t1 in [2,2]/2
+2 -> t2 in [0,w[/3
+3 -> t3 in [4,4]/4, t4 in [0,4]/7
+4 -> t4 in [0,w[/5
+5 -> t8 in [0,w[/6
+6 -> 
+7 -> t3 in [0,4]/5, t8 in [0,4]/8
+8 -> t3 in [0,4]/6, t5 in [0,4]/0
+
+0.000s
+
+LIVENESS ANALYSIS ----------------------------------------------- 
+
+not live
+
+1 dead classe(s), 1 live classe(s)
+0 dead transition(s), 0 live transition(s)
+
+dead classe(s): 6
+
+STRONG CONNECTED COMPONENTS:
+
+3 : 0 1 2 3 7 8
+2 : 4
+1 : 5
+0 : 6
+
+SCC GRAPH:
+
+3 -> t0/3, t1/3, t2/3, t3/2, t4/3, t3/1, t8/3, t3/0, t5/3
+2 -> t4/1
+1 -> t8/0
+0 -> 
+
+0.000s
+
+ANALYSIS COMPLETED ---------------------------------------------- 
+
+
+
