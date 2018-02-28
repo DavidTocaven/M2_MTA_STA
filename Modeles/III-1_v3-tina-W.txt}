@@ -14,7 +14,7 @@ tr t1 : FinDeplacer [1,1] p1 -> p2
 tr t2 [3,3] p2 -> p3 p6 
 tr t3 [12,12] p3 -> p4 
 tr t4 [3,3] p4 -> p5 
-tr t5 [0,0] p5 p6 -> p0 
+tr t5 p5 p6 -> p0 
 tr t6 [16,16] p6 -> p7 
 pl p0 (1)
 pl p1 : {DEPLACER()}
@@ -29,7 +29,7 @@ REACHABILITY ANALYSIS -------------------------------------------
 
 bounded
 
-6 classe(s), 6 transition(s)
+7 classe(s), 7 transition(s)
 
 CLASSES:
 
@@ -69,8 +69,13 @@ class 5
     marking
 	p5 p6
     domain
-	0 <= t5 <= 0
+	0 <= t5
 	1 <= t6 <= 1
+
+class 6
+    marking
+	p5 p7
+    domain
 
 
 REACHABILITY GRAPH:
@@ -80,7 +85,8 @@ REACHABILITY GRAPH:
 2 -> t2 in [3,3]/3
 3 -> t3 in [12,12]/4
 4 -> t4 in [3,3]/5
-5 -> t5 in [0,0]/0
+5 -> t5 in [0,1]/0, t6 in [1,1]/6
+6 -> 
 
 0.000s
 
@@ -88,18 +94,20 @@ LIVENESS ANALYSIS -----------------------------------------------
 
 not live
 
-0 dead classe(s), 6 live classe(s)
-1 dead transition(s), 6 live transition(s)
+1 dead classe(s), 1 live classe(s)
+0 dead transition(s), 0 live transition(s)
 
-dead transition(s): t6
+dead classe(s): 6
 
 STRONG CONNECTED COMPONENTS:
 
-0 : 0 1 2 3 4 5
+1 : 0 1 2 3 4 5
+0 : 6
 
 SCC GRAPH:
 
-0 -> t0/0, t1/0, t2/0, t3/0, t4/0, t5/0
+1 -> t0/1, t1/1, t2/1, t3/1, t4/1, t5/1, t6/0
+0 -> 
 
 0.000s
 
