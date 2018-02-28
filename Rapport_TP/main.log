@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.13)  28 FEB 2018 13:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.13)  28 FEB 2018 15:00
 entering extended mode
 **./main.tex
 (main.tex
@@ -677,35 +677,35 @@ ion de toute opération $\OML/cmm/m/it/10 O[]$\T1/cmr/m/n/10 . Ensuite, nous réa
 liserons
  []
 
-<./I/images/III-1_V3.pdf, id=104, 499.8675pt x 507.89754pt>
-File: ./I/images/III-1_V3.pdf Graphic file (type pdf)
-<use ./I/images/III-1_V3.pdf>
-Package pdftex.def Info: ./I/images/III-1_V3.pdf  used on input line 8.
+<./I/images/III-1_v3.pdf, id=104, 499.8675pt x 507.89754pt>
+File: ./I/images/III-1_v3.pdf Graphic file (type pdf)
+<use ./I/images/III-1_v3.pdf>
+Package pdftex.def Info: ./I/images/III-1_v3.pdf  used on input line 8.
 (pdftex.def)             Requested size: 275.71075pt x 280.1505pt.
 [2
 
- <./I/images/III-1_V3.pdf>]
+ <./I/images/III-1_v3.pdf>]
 
 LaTeX Warning: Command \c invalid in math mode on input line 20.
 
 Missing character: There is no ç in font cmr10!
-<./I/images/III-1_V3_esti.pdf, id=138, 697.60625pt x 676.5275pt>
-File: ./I/images/III-1_V3_esti.pdf Graphic file (type pdf)
-<use ./I/images/III-1_V3_esti.pdf>
-Package pdftex.def Info: ./I/images/III-1_V3_esti.pdf  used on input line 45.
-(pdftex.def)             Requested size: 224.43689pt x 217.64938pt.
-<./I/images/III-1_v3_aut.pdf, id=139, 527.9725pt x 445.665pt>
+<./I/images/III-1_v3_esti.pdf, id=138, 697.60625pt x 676.5275pt>
+File: ./I/images/III-1_v3_esti.pdf Graphic file (type pdf)
+<use ./I/images/III-1_v3_esti.pdf>
+Package pdftex.def Info: ./I/images/III-1_v3_esti.pdf  used on input line 45.
+(pdftex.def)             Requested size: 154.7812pt x 150.10623pt.
+
+Underfull \hbox (badness 2951) in paragraph at lines 46--46
+[]\T1/cmr/m/sc/10 Figure \T1/cmr/m/n/10 1.2  |[]Modèle réseau de Petri
+ []
+
+<./I/images/III-1_v3_aut.pdf, id=139, 343.36665pt x 180.9526pt>
 File: ./I/images/III-1_v3_aut.pdf Graphic file (type pdf)
 <use ./I/images/III-1_v3_aut.pdf>
 Package pdftex.def Info: ./I/images/III-1_v3_aut.pdf  used on input line 50.
-(pdftex.def)             Requested size: 182.83537pt x 154.33261pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--55
-
- []
-
-) (II/chap2.tex [3] [4 <./I/images/III-1_V3_esti.pdf> <./I/images/III-1_v3_aut.
-pdf>]
+(pdftex.def)             Requested size: 252.48883pt x 133.06067pt.
+[3 <./I/images/III-1_v3_esti.pdf> <./I/images/III-1_v3_aut.pdf>]) (II/chap2.tex
+[4]
 Chapitre 2.
 ) (III/chap3.tex [5
 
@@ -754,11 +754,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 148.
 Here is how much of TeX's memory you used:
  13539 strings out of 495229
  202802 string characters out of 3181267
- 377626 words of memory out of 3000000
+ 377622 words of memory out of 3000000
  15838 multiletter control sequences out of 15000+200000
  19603 words of font info for 40 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 44i,12n,49p,929b,1879s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,11n,49p,929b,1879s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\David\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
 eccc1000.pk> <C:\Users\David\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
 ec\dpi600\ecti1000.pk> <C:\Users\David\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
@@ -783,7 +783,7 @@ Users/David/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb
 /cmr10.pfb><C:/Users/David/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfon
 ts/cm/cmr7.pfb><C:/Users/David/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb>
-Output written on main.pdf (25 pages, 630338 bytes).
+Output written on main.pdf (25 pages, 687404 bytes).
 PDF statistics:
  1555 PDF objects out of 1728 (max. 8388607)
  748 named destinations out of 1000 (max. 500000)

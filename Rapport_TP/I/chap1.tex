@@ -5,7 +5,7 @@ Nous allons dans un premier temps réaliser une modélisation par réseau de Pet
 Nous avons, pour modélisation générique d'une opération, considéré que le chariot de déplacement se trouve en bas. Voici le réseau de Petri temporel (voir figure \ref{fig:RdPTempo_generique}) : \\
 \begin{figure}[!ht]
 \centering
-\includegraphics[width=.57\textwidth]{./I/images/III-1_V3.pdf}
+\includegraphics[width=.57\textwidth]{./I/images/III-1_v3.pdf}
 \caption{\label{fig:RdPTempo_generique}Modèle réseau de Petri générique d'une opération.}
 \end{figure}
 
@@ -34,54 +34,28 @@ y &=& \begin{bmatrix}
 \end{bmatrix} \text{secondes}\\
 \end{eqnarray}
 \section{Analyse du modèle}
-Grâce aux mesures précédentes, nous avons put faire remplacer x et y par des valeurs temporelles sur le modèle générique. Nous avons choisi arbitrairement les valeurs de $d_{i_{min}} = 13$ secondes et $d_{i_{max}} = 16$ secondes, respectivement le temps minimal de l'opération et le temps maximal de l'opération $o_i$.  Ainsi, nous avons la condition suivante qui doit être respectée $i <d_{i_{max}}-y$, soit $i < 13$ secondes. Donc il "reste" moins de 13 secondes afin de réaliser d'autres opérations. Nous allons fixé une temporisation  $i=\begin{bmatrix}
+Grâce aux mesures précédentes, nous avons pus remplacer $x$ et $y$ par des valeurs temporelles sur le modèle générique. Nous avons choisi arbitrairement les valeurs de $d_{i_{min}} = 13$ secondes et $d_{i_{max}} = 16$ secondes, respectivement le temps minimal de l'opération et le temps maximal de l'opération $o_i$.  Ainsi, nous avons la condition suivante qui doit être respectée $i <d_{i_{max}}-y$, soit $i < 13$ secondes. Donc il "reste" moins de 13 secondes afin de réaliser d'autres opérations. Nous allons fixer une temporisation  $i=\begin{bmatrix}
 12& 12
 \end{bmatrix}$ secondes pour étudier le réseau. 
 
 Figure \ref{fig:RdPTempo_generique_indentif}, voici le nouveau réseau de Petri temporel.
 \begin{figure}[!ht]
-\begin{minipage}[t]{.58\textwidth}
+\begin{minipage}[t]{.4\textwidth}
 \centering
-\includegraphics[width=.8\textwidth]{./I/images/III-1_V3_esti.pdf}
+\includegraphics[width=.8\textwidth]{./I/images/III-1_v3_esti.pdf}
 \caption{\label{fig:RdPTempo_generique_indentif}Modèle réseau de Petri générique d'une opération avec les temps estimés}
 \end{minipage}\hfill%
-\begin{minipage}[t]{.42\textwidth}
+\begin{minipage}[t]{.58\textwidth}
 \centering
 \includegraphics[width=.9\textwidth]{./I/images/III-1_v3_aut.pdf}
 \caption{\label{fig:III-1-automate}Diagramme de classe.}
 \end{minipage}
 \end{figure}
-Une analyse à l'aide de TINA nous a permis de déterminer les différentes classes du réseau et ces propriétés : \\
-
-\begin{tabular}{|c || l|l |l|l |l|l |l|}
-\hline
-Classe 		&	0	&	1	&	2	&	3		&	4		&	5		&	6	\\
-\hline\hline
-Marquage 	& $p_0$ & $p_1$ & $p_2$ & $p_3 p_6$	& $p_4 p_6$	& $p_5 p_6$	& $p_5 p_7$	\\
-\hline
-... 							&
- $0 \leq t_0$ 					&	%0
- $1  \leq t_1 \leq 1 $ 			&	%1
- $3  \leq t_2 \leq 3 $ 			&	%2
- $\begin{matrix}
-12 \leq t_3 \leq 12\\
-	16 \leq t_6 \leq 16
-\end{matrix}$					&	%3
- $\begin{matrix}
- 3 \leq t_4  \leq 3\\
- 4 \leq t_6  \leq 4
- \end{matrix}$					&	%4
- $\begin{matrix}
- 0 \leq t_5 \\
- 1 \leq t_6 \leq 1
- \end{matrix}$					&	%5
- 					 \\ \hline
-\end{tabular}
-
-Et l'automate est présenté figure \ref{fig:III-1-automate}. Les transitions 
-
+Une analyse à l'aide de TINA nous a permis de déterminer les différentes classes du réseau. L'automate est présenté figure \ref{fig:III-1-automate}. Nous avons put aussi extraire les propriétés suivantes grâce à TINA.
 
 \begin{itemize}
 \item Le RdPT (Réseau de Petri Temporisé) n'est pas vivant. 
+\item La transition $t_6$ est non vivante. 
+\item LE RdPT est borné.
 \end{itemize}
 
