@@ -19,7 +19,7 @@ Le marquage initial est constitué d'un unique jeton sur la place $p_0$. Ce jeto
 Il faut donc que le jeton présent en $p_3$ arrive en $p_5$ en moins de $d_{i_{max}}$ unités de temps pour que l'alarme ne se déclenche pas. De cette façon, le tir de la transition $t_5$, qui nécessite et consomme un jeton en $p_6$ et un jeton en $p_5$, empêchera l'alarme de sonner et permettra d'effectuer une nouvelle opération (retour au marquage initial). 
 La place $p_3$ à un événement \emph{...}, cela représente la possibilité d'effectuer n'importe(s) quelle(s) action(s) et de revenir à l'emplacement de l'opération $o_i$, de façon à ce que l'action en $p_4$, \emph{PRISE()}, de durée $y$, permette de récupérer la pièce. La transition $t_3$ est marquée de la temporisation $i$. Celle-ci représente le temps de(s) action(s) de la place $p_4$ et/ou un temps d'attente afin que l'on récupère la pièce à la fin de l'opération $ç_i$. Ainsi, si l'on souhaite que l'alarme ne sonne pas, il faut que $i + y < d_{i_{max}}$.
 
-\section{Estimation de Prise/Pose et Avance/Recule}
+\section{Estimation de Prise/Pose et Avance/Recule}\label{sec:estimationTemps}
 \begin{center}
 \textit{Voir annexe \ref{Annex:MesuresXY}, page \pageref{Annex:MesuresXY}.}
 \end{center}

@@ -20,10 +20,10 @@ Nous pouvons séparer ce modèle complexe en deux ensembles de places : \begin{i
 \end{itemize}
 	
 \paragraph*{Liaison entre les ensembles}
-Les places $p_9$, $p_{21}$ et $p_{23}$, places qui se situent entre les deux ensembles $P_1$ et $P_2$, sont utilisées pour effectuer les passages entre les 2 ensembles. De même, nous avons deux places $p_{22}$ et $p_{24}$ qui font la liaison entre les deux ensembles, a l'attention que celles ci ne servent pas à amener la chariot d'une pièce à l'autre mais à le faire attendre la fin d'une opération.
+Les places $p_9$, $p_{21}$ et $p_{23}$, places qui se situent entre les deux ensembles $P_1$ et $P_2$, sont utilisées pour effectuer les passages entre les 2 ensembles. De même, nous avons deux places $p_{22}$ et $p_{24}$ qui font la liaison entre les deux ensembles, à l'attention que celles ci ne servent pas à amener la chariot d'une pièce à l'autre mais à le faire attendre le temps nécessaire avant la fin d'une opération et donc la récupération d'une pièce.
 
 
-Nous notons aussi les transitions $t_{15}$ et $t_{20}$ qui sont les représentations de la transition $t_5$ dans le modèle générique. Elles permettent dans ce contexte de synchroniser la prise de la pièce et l'arrêt du compteur de l'alarme. 
+Nous notons aussi les transitions $t_{15}$ et $t_{20}$ qui sont les représentations de la transition $t_5$ dans le modèle générique. Elles permettent dans ce contexte de synchroniser la prise de la pièce et l'arrêt du compteur de l'alarme. Comme dans le modèle générique, ces transitions ont un intervalle de temps $[0;0]$, cela oblige les jetons arrivant dans les places en amont à être immédiatement tiré. Ainsi, le compteur de l'alarme est stoppé après $0$u.t. que la pièce ait été retiré de son emplacement.
 
 \paragraph*{Ordonnancement}
 Il est aussi a noté que nous avons choisi d'effectuer l'opération de la pièce $p1$ avant celle de $p2$ et cela pour des raisons temporelles. Nous avons remarqué, dans une étude préliminaire à la construction de ce réseau, que cet ordonnancement était possible alors qu'une inversion l'ordre du traitement des pièces donne obligatoirement le retentissement d'une alarme (notamment dans la suite du TP).
@@ -33,4 +33,30 @@ Nous avons maintenant à notre disposition une commande à appliquer sur les \em
 
 
 \section{Analyse du modèle avec TINA}
+L'analyse temporelle de réseau nécessite un réseau tel que nous vous présentons en figure \ref{fig:RdpAnalyseIII-2}. Dans ce type de réseau, nous avons choisi de ne plus utiliser des noms sur les évènements mais plutôt des intervalles de temps. Ces intervalles ont été établi dans la section \ref{sec:estimationTemps}.
 
+\begin{figure}[!ht]
+\centering
+\includegraphics[height = .78\textheight]{./II/images/reseau-AnalyseIII-2.pdf}
+\caption{Réseau de PETRI Temporels pour l'analyse de 2 opérations}\label{fig:RdpAnalyseIII-2}
+\end{figure}
+
+Avec la version de \emph{TINA} adéquate, nous avons réalisé la construction d'un graphe des classes accessibles. Ce graphe comporte 29 classes que nous n'avons pas représenté graphiquement, cependant vous pouvez trouver le rapport d'analyse du logiciel en annexe \ref{Annex:analyse}. 
+
+\paragraph*{Vivacité du réseau} Dans cette analyse, nous nous referons dans un premier temps à cette bonne propriété. En effet, le résultat obtenu (disponible à la ligne 244) nous indique que les 2 transitions $t_5$ et $t_{13}$ ne sont jamais franchi. Ceci signifie que les places $p_{18}$ et $p_{17}$ ne sont jamais marqué, car le seul moyen existant pour qu'un jeton soit dans ces places est en franchissant respectivement cette transition. Donc, l'alarme n'est jamais activée.
+
+\paragraph*{Graphe des classes}Une analyse des places accessibles à partir du graphe des classes nous confirme ce que la vivacité du réseau nous avait indiqué : les places $p_{18}$ et $p_{17}$ ne sont jamais marquées. 
+
+Cette analyse nous apporte aussi une information que nous pourrons utiliser dans la prochaine section. Il s'agit de l'intervalle temporelle restante avant le franchissement des transitions $t_5$ et $t_{13}$ avec lequel il est possible de connaitre l'intervalle temporelle passée dans l'opération $O_1$ et $O_2$, respectivement. Nous pouvons observer aux lignes 153 et 194 ces intervalles, elles sont de $[3;3]$ pour $t_3$ et de $[9;9]$ pour $t_{13}$. 
+
+En regardant les intervalles de temps que doivent respecter $O_1$ et $O_2$, nous pouvons
+
+--> On sait le temps des opé min max
+--> On connait alors le temps des opé (dispo sur les intervalles restant de t13 et t9) 
+--> On doit obtenir le max-min sur les lignes 153 et 194
+
+
+
+\section{Mise au point des Intervalles Temporels}
+$d_{1_{min}} = 15$
+$d_{2_{min}} = 20$

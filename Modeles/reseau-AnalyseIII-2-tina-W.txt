@@ -1,0 +1,308 @@
+Tina version 2.8.4 -- 10/27/06 -- LAAS/CNRS
+
+mode -W
+
+INPUT NET ------------------------------------------------------- 
+
+parsed net {reseau-AnalyseIII-2}
+
+25 places, 23 transitions
+
+net {reseau-AnalyseIII-2}
+tr t0 p0 -> p1 
+tr t1 [1,1] p1 -> p2 
+tr t10 [1,1] p21 -> p22 
+tr t11 [3,3] p8 -> p23 
+tr t12 [0,0] p22 -> p5 
+tr t13 [22,22] p19 -> p17 
+tr t14 [0,0] p24 -> p13 
+tr t15 [0,0] p20 p6 -> p7 
+tr t16 [2,2] p7 -> p8 
+tr t17 : FinReculer [1,1] p23 -> p24 
+tr t18 [0,0] p14 p19 -> p15 
+tr t19 [2,2] p15 -> p16 
+tr t2 [3,3] p2 -> p3 
+tr t20 [3,3] p16 -> 
+tr t21 [3,3] p5 -> p6 
+tr t22 [3,3] p13 -> p14 
+tr t3 [2,2] p3 -> p4 
+tr t4 [3,3] p4 -> p20 p9 
+tr t5 [16,16] p20 -> p18 
+tr t6 [1,1] p9 -> p10 
+tr t7 [3,3] p10 -> p11 
+tr t8 [2,2] p11 -> p12 
+tr t9 [3,3] p12 -> p19 p21 
+pl p0 (1)
+pl p1 : {Avancer(1,1)}
+pl p10 : {Prendre();}
+pl p11 : {Avancer(2,1);}
+pl p12 : {Poser();}
+pl p13 : {Prendre();}
+pl p15 : {Avancer(2,1);}
+pl p16 : {Poser();}
+pl p17 : {Alarme();}
+pl p18 : {Alarme();}
+pl p2 : {Prendre();}
+pl p21 : {Reculer(1,1);}
+pl p23 : {Reculer(1,1);}
+pl p3 : {Avancer(2,1);}
+pl p4 : {Poser();}
+pl p5 : {Prendre();}
+pl p7 : {Avancer(2,1);}
+pl p8 : {Poser();}
+pl p9 : {Reculer(1,1)}
+
+0.000s
+
+REACHABILITY ANALYSIS ------------------------------------------- 
+
+bounded
+
+22 classe(s), 21 transition(s)
+
+CLASSES:
+
+class 0
+    marking
+	p0
+    domain
+	0 <= t0
+
+class 1
+    marking
+	p1
+    domain
+	1 <= t1 <= 1
+
+class 2
+    marking
+	p2
+    domain
+	3 <= t2 <= 3
+
+class 3
+    marking
+	p3
+    domain
+	2 <= t3 <= 2
+
+class 4
+    marking
+	p4
+    domain
+	3 <= t4 <= 3
+
+class 5
+    marking
+	p20 p9
+    domain
+	16 <= t5 <= 16
+	1 <= t6 <= 1
+
+class 6
+    marking
+	p10 p20
+    domain
+	15 <= t5 <= 15
+	3 <= t7 <= 3
+
+class 7
+    marking
+	p11 p20
+    domain
+	12 <= t5 <= 12
+	2 <= t8 <= 2
+
+class 8
+    marking
+	p12 p20
+    domain
+	10 <= t5 <= 10
+	3 <= t9 <= 3
+
+class 9
+    marking
+	p19 p20 p21
+    domain
+	1 <= t10 <= 1
+	22 <= t13 <= 22
+	7 <= t5 <= 7
+
+class 10
+    marking
+	p19 p20 p22
+    domain
+	0 <= t12 <= 0
+	21 <= t13 <= 21
+	6 <= t5 <= 6
+
+class 11
+    marking
+	p19 p20 p5
+    domain
+	21 <= t13 <= 21
+	3 <= t21 <= 3
+	6 <= t5 <= 6
+
+class 12
+    marking
+	p19 p20 p6
+    domain
+	18 <= t13 <= 18
+	0 <= t15 <= 0
+	3 <= t5 <= 3
+
+class 13
+    marking
+	p19 p7
+    domain
+	18 <= t13 <= 18
+	2 <= t16 <= 2
+
+class 14
+    marking
+	p19 p8
+    domain
+	3 <= t11 <= 3
+	16 <= t13 <= 16
+
+class 15
+    marking
+	p19 p23
+    domain
+	13 <= t13 <= 13
+	1 <= t17 <= 1
+
+class 16
+    marking
+	p19 p24
+    domain
+	12 <= t13 <= 12
+	0 <= t14 <= 0
+
+class 17
+    marking
+	p13 p19
+    domain
+	12 <= t13 <= 12
+	3 <= t22 <= 3
+
+class 18
+    marking
+	p14 p19
+    domain
+	9 <= t13 <= 9
+	0 <= t18 <= 0
+
+class 19
+    marking
+	p15
+    domain
+	2 <= t19 <= 2
+
+class 20
+    marking
+	p16
+    domain
+	3 <= t20 <= 3
+
+class 21
+    marking
+	
+    domain
+
+
+REACHABILITY GRAPH:
+
+0 -> t0 in [0,w[/1
+1 -> t1 in [1,1]/2
+2 -> t2 in [3,3]/3
+3 -> t3 in [2,2]/4
+4 -> t4 in [3,3]/5
+5 -> t6 in [1,1]/6
+6 -> t7 in [3,3]/7
+7 -> t8 in [2,2]/8
+8 -> t9 in [3,3]/9
+9 -> t10 in [1,1]/10
+10 -> t12 in [0,0]/11
+11 -> t21 in [3,3]/12
+12 -> t15 in [0,0]/13
+13 -> t16 in [2,2]/14
+14 -> t11 in [3,3]/15
+15 -> t17 in [1,1]/16
+16 -> t14 in [0,0]/17
+17 -> t22 in [3,3]/18
+18 -> t18 in [0,0]/19
+19 -> t19 in [2,2]/20
+20 -> t20 in [3,3]/21
+21 -> 
+
+0.000s
+
+LIVENESS ANALYSIS ----------------------------------------------- 
+
+not live
+
+1 dead classe(s), 1 live classe(s)
+2 dead transition(s), 0 live transition(s)
+
+dead classe(s): 21
+
+dead transition(s): t5 t13
+
+STRONG CONNECTED COMPONENTS:
+
+21 : 0
+20 : 1
+19 : 2
+18 : 3
+17 : 4
+16 : 5
+15 : 6
+14 : 7
+13 : 8
+12 : 9
+11 : 10
+10 : 11
+9 : 12
+8 : 13
+7 : 14
+6 : 15
+5 : 16
+4 : 17
+3 : 18
+2 : 19
+1 : 20
+0 : 21
+
+SCC GRAPH:
+
+21 -> t0/20
+20 -> t1/19
+19 -> t2/18
+18 -> t3/17
+17 -> t4/16
+16 -> t6/15
+15 -> t7/14
+14 -> t8/13
+13 -> t9/12
+12 -> t10/11
+11 -> t12/10
+10 -> t21/9
+9 -> t15/8
+8 -> t16/7
+7 -> t11/6
+6 -> t17/5
+5 -> t14/4
+4 -> t22/3
+3 -> t18/2
+2 -> t19/1
+1 -> t20/0
+0 -> 
+
+0.000s
+
+ANALYSIS COMPLETED ---------------------------------------------- 
+
+
+
