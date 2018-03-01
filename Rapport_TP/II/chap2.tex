@@ -15,8 +15,8 @@ Dans ce réseau, nous pouvons identifier tout d'abord la ressemblance avec le mo
 
 \paragraph*{Séparation du modèle}
 Nous pouvons séparer ce modèle complexe en deux ensembles de places : \begin{itemize}
-\item l'ensemble $P_1 =\left\lbrace p_2,p_3,p_4,p_5,p_6,p_7,p_{20},p_{18}\right\rbrace$ est utilisé pour emmené la pièce $p2$ du bac $e2$(son bac initial) vers le bac $e5$ dans lequel elle subit l'opération $O_2$. Cet ensemble est lié avec les deux places $p_{20}$ et $p_{18}$ qui modélisent l'alarme lié à l'opération $O_2$.
-\item  l'ensemble $P_2 =\left\lbrace p_{10}, p_{11}, p_{12} p_{13}, p_{14}, p_{15}, p_{16}\right\rbrace$ modélise le transport de la pièce $p1$ de $e1$(son bac initial) vers $e3$, bac dans lequel elle subit l'opération $O2$, puis du transport de $e4$ vers $e6$ (Pour prévoir les prochains RdP). L'alarme de l'opération est enclenchée par la place $p_{17}$, qui est lié au reste de l'ensemble $P_2$ par la place $p_{19}$.
+\item l'ensemble $P_1 =\left\lbrace p_2,p_3,p_4,p_5,p_6,p_7,p_{20},p_{18}\right\rbrace$ est utilisé pour emmené la pièce $p1$ du bac $e1$(son bac initial) vers le bac $e3$ dans lequel elle subit l'opération $O_2$. Cet ensemble est lié avec les deux places $p_{20}$ et $p_{18}$ qui modélisent l'alarme liée à l'opération $O_1$.
+\item  l'ensemble $P_2 =\left\lbrace p_{10}, p_{11}, p_{12} p_{13}, p_{14}, p_{15}, p_{16}\right\rbrace$ modélise le transport de la pièce $p2$ de $e2$(son bac initial) vers $e3$, bac dans lequel elle subit l'opération $O1$, puis du transport de $e5$ vers $e7$ (Pour prévoir les prochains RdP). L'alarme de l'opération est enclenchée par la place $p_{17}$, qui est lié au reste de l'ensemble $P_2$ par la place $p_{19}$.
 \end{itemize}
 	
 \paragraph*{Liaison entre les ensembles}
@@ -26,9 +26,11 @@ Les places $p_9$, $p_{21}$ et $p_{23}$, places qui se situent entre les deux ens
 Nous notons aussi les transitions $t_{15}$ et $t_{20}$ qui sont les représentations de la transition $t_5$ dans le modèle générique. Elles permettent dans ce contexte de synchroniser la prise de la pièce et l'arrêt du compteur de l'alarme. 
 
 \paragraph*{Ordonnancement}
-Il est aussi a noté que nous avons choisi d'effectuer l'opération de la pièce $p2$ avant celle de $p1$ et cela pour des raisons temporelles. Nous avons remarqué, dans une étude préliminaire à la construction de ce réseau, que cet ordonnancement était plus rapide que si nous inversions l'ordre de traitement des pièces. 
+Il est aussi a noté que nous avons choisi d'effectuer l'opération de la pièce $p1$ avant celle de $p2$ et cela pour des raisons temporelles. Nous avons remarqué, dans une étude préliminaire à la construction de ce réseau, que cet ordonnancement était possible alors qu'une inversion l'ordre du traitement des pièces donne obligatoirement le retentissement d'une alarme (notamment dans la suite du TP).
 
 
 Nous avons maintenant à notre disposition une commande à appliquer sur les \emph{STA}. Toutefois, avant de passer à l'implémentation, nous allons utiliser l'outil \emph{TINA} pour analyser le modèle ainsi obtenu.	
+
+
 \section{Analyse du modèle avec TINA}
 
