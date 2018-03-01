@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.21)  1 MAR 2018 18:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.21)  1 MAR 2018 20:33
 entering extended mode
 **./main.tex
 (main.tex
@@ -480,53 +480,90 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box34
 \enitdp@description=\count146
 )
+("D:\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box35
+\beforetitleunit=\skip69
+\aftertitleunit=\skip70
+\ttl@plus=\dimen156
+\ttl@minus=\dimen157
+\ttl@toksa=\toks43
+\titlewidth=\dimen158
+\titlewidthlast=\dimen159
+\titlewidthfirst=\dimen160
+)
+("D:\MiKTeX 2.9\tex\latex\blindtext\blindtext.sty"
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+("D:\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count147
+\c@Blindtext=\count148
+\c@blind@countparstart=\count149
+\blind@countxx=\count150
+\blindtext@numBlindtext=\count151
+\blind@countyy=\count152
+\c@blindlist=\count153
+\c@blindlistlevel=\count154
+\c@blindlist@level=\count155
+\blind@listitem=\count156
+\c@blind@listcount=\count157
+\c@blind@levelcount=\count158
+\blind@mathformula=\count159
+\blind@Mathformula=\count160
+\c@blind@randomcount=\count161
+\c@blind@randommax=\count162
+\c@blind@pangramcount=\count163
+\c@blind@pangrammax=\count164
+)
 ("D:\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-\c@cpt1=\count147
+\c@cpt1=\count165
  (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Info: Redefining \degres on input line 74.
-LaTeX Info: Redefining \dots on input line 74.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Info: Redefining \degres on input line 79.
+LaTeX Info: Redefining \dots on input line 79.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 74.
+(french.ldf)             reported on input line 79.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 74.
-LaTeX Info: Redefining \up on input line 74.
+(french.ldf)             reported on input line 79.
+LaTeX Info: Redefining \up on input line 79.
 
 ("D:\MiKTeX 2.9\tex\latex\ucs\ucsencs.def"
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 ("D:\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count148
-\scratchdimen=\dimen156
-\scratchbox=\box35
-\nofMPsegments=\count149
-\nofMParguments=\count150
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count151
-\MPscratchDim=\dimen157
-\MPnumerator=\count152
-\makeMPintoPDFobject=\count153
-\everyMPtoPDFconversion=\toks44
+\scratchcounter=\count166
+\scratchdimen=\dimen161
+\scratchbox=\box36
+\nofMPsegments=\count167
+\nofMParguments=\count168
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count169
+\MPscratchDim=\dimen162
+\MPnumerator=\count170
+\makeMPintoPDFobject=\count171
+\everyMPtoPDFconversion=\toks45
 ) ("D:\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -540,8 +577,8 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\AtBeginShipoutBox=\box36
-Package hyperref Info: Link coloring OFF on input line 74.
+\AtBeginShipoutBox=\box37
+Package hyperref Info: Link coloring OFF on input line 79.
 
 ("D:\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -549,11 +586,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("D:\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count154
+\c@section@level=\count172
 )
-LaTeX Info: Redefining \ref on input line 74.
-LaTeX Info: Redefining \pageref on input line 74.
-LaTeX Info: Redefining \nameref on input line 74.
+LaTeX Info: Redefining \ref on input line 79.
+LaTeX Info: Redefining \pageref on input line 79.
+LaTeX Info: Redefining \nameref on input line 79.
  (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -605,7 +642,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count155
+\c@lstlisting=\count173
 
 (page_de_garde/page_de_garde.tex
 <./page_de_garde/logo_ups.png, id=63, 941.76843pt x 304.88907pt>
@@ -647,7 +684,7 @@ on with the same identifier (name{page.1}) has been already used, duplicate ign
 ored
 <to be read again> 
                    \relax 
-l.101 \tableofcontents
+l.106 \tableofcontents
                        [1] (main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
@@ -739,23 +776,23 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
 [20] [21])) (annexes/annexe2/annexe2.tex [22])) [23
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 153.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 153.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 153.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 153.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 2D18BD43E1A75DF5600EEA02A35BC3E6;1142.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 148.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 153.
  ) 
 Here is how much of TeX's memory you used:
- 13534 strings out of 493334
- 195556 string characters out of 3145269
- 381455 words of memory out of 3000000
- 16050 multiletter control sequences out of 15000+200000
+ 13980 strings out of 493334
+ 201804 string characters out of 3145269
+ 397925 words of memory out of 3000000
+ 16486 multiletter control sequences out of 15000+200000
  20367 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,11n,49p,929b,1879s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,11n,49p,929b,1877s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Lucien\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \eccc1000.pk> <C:\Users\Lucien\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
 n\ec\dpi600\ecti1000.pk> <C:\Users\Lucien\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
@@ -779,9 +816,9 @@ msfonts/cm/cmmi5.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D
 :/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmr7.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
 y10.pfb>
-Output written on main.pdf (26 pages, 705103 bytes).
+Output written on main.pdf (26 pages, 703308 bytes).
 PDF statistics:
- 1592 PDF objects out of 1728 (max. 8388607)
+ 1586 PDF objects out of 1728 (max. 8388607)
  752 named destinations out of 1000 (max. 500000)
  161 words of extra memory for PDF output out of 10000 (max. 10000000)
 
