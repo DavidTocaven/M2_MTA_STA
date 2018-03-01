@@ -1,0 +1,92 @@
+t 90.0 65.0 t0 0 w n
+t 90.0 145.0 t1 c 0 w n FinAvancer e
+p 90.0 105.0 p1 0 ne {Avancer(2,1)} e
+p 90.0 190.0 p2 0 ne {Prendre();} e
+t 90.0 230.0 t2 0 w n
+p 90.0 270.0 p3 0 ne {Avancer(2,1);} e
+p 90.0 35.0 p0 1 ne
+p 90.0 345.0 p4 0 ne {Poser();} e
+t 90.0 390.0 t4 0 w n
+t 90.0 310.0 t3 c 0 w n FinAvancer e
+p 25.0 420.0 p6 0 ne
+t 20.0 515.0 t5 16 16 e
+p 330.0 245.0 p9 0 ne {Prendre();} e
+t 330.0 285.0 t7 0 w n
+p 330.0 325.0 p10 0 ne {Avancer(2,1);} e
+p 330.0 400.0 p11 0 ne {Poser();} e
+t 330.0 365.0 t8 c 0 w n FinAvancer e
+p 20.0 570.0 p7 0 ne {Alarme();} ne
+t 330.0 440.0 t9 0 w n
+p 240.0 455.0 p12 0 n {Reculer(1,1);} s
+t 185.0 455.0 t10 c 0 w n FinReculer n
+t 90.0 470.0 t12 0 w n
+p 90.0 525.0 p14 0 ne {Prendre();} e
+t 265.0 245.0 t6 c 0 w n FinReculer s
+p 210.0 245.0 p8 0 n {Reculer(2,1)} s
+p 405.0 445.0 p16 0 n
+t 405.0 560.0 t13 22 22 e
+t 330.0 515.0 t14 0 w n
+p 90.0 615.0 p18 0 ne {Avancer(2,1);} e
+t 90.0 570.0 t15 0 w n
+t 90.0 650.0 t16 c 0 w n FinAvancer e
+p 405.0 605.0 p17 0 n {Alarme();} ne
+t 215.0 580.0 t17 c 0 w n FinReculer e
+p 90.0 690.0 p19 0 n {Poser();} e
+t 90.0 725.0 t11 0 w n
+p 170.0 670.0 p5 0 n {Reculer();} e
+p 330.0 560.0 p13 0 ne {Prendre();} ne
+p 130.0 455.0 p15 0 n
+p 250.0 515.0 p20 0 n
+t 330.0 610.0 t18 0 w n
+p 330.0 660.0 p21 0 n {Avancer(2,1);} ne
+t 330.0 695.0 t19 c 0 w n FinAvancer e
+p 330.0 735.0 p22 0 n {Poser();} e
+t 330.0 770.0 t20 0 w n
+e p21 t19 1 n
+e t19 p22 1 n
+e p22 t20 1 n
+e t18 p21 1 n
+e p13 t18 1 n
+e p16 t18 1 n
+e p6 t15 1 n
+e t14 p13 1 n
+e p20 t14 1 n
+e t17 p20 1 n
+e p5 t17 1 n
+e t11 p5 1 n
+e p19 t11 1 n
+e p0 t0 1 n
+e t0 p1 1 n
+e p1 t1 1 n
+e t1 p2 1 n
+e p2 t2 1 n
+e t2 p3 1 n
+e p3 t3 1 n
+e t3 p4 1 n
+e p4 t4 1 n
+e t4 0.7036132104 31.32091953 p6 0.06881983455 19.99999998 1 n
+e p6 t5 1 n
+e t5 p7 1 n
+e t8 p11 1 n
+e p10 t8 1 n
+e t7 p10 1 n
+e p9 t7 1 n
+e t6 p9 1 n
+e p8 t6 1 n
+e p11 t9 1 n
+e t9 0.7697917121 40.31128874 p12 0.9906487204 51.0881591 1 n
+e p12 t10 1 n
+e t12 p14 1 n
+e t10 p15 1 n
+e p15 t12 1 n
+e t4 0.7880279158 80.28075736 p8 0.5043004381 37.01351105 1 n
+e p14 t15 1 n
+e t15 p18 1 n
+e p18 t16 1 n
+e t16 p19 1 n
+e t9 0.8172992926 21.9317122 p16 0.4894053478 20.00000004 1 n
+e p16 t13 1 n
+e t13 p17 1 n
+h {reseau_CommandeIII-2} small
+
+

@@ -1,0 +1,81 @@
+t 75.0 215.0 t2 3 3 e
+p 75.0 250.0 p3 0 e {Avancer(2,1);} w
+p 75.0 325.0 p4 0 e {Poser();} w
+p 75.0 400.0 {p5-DebutO1} 0 e
+p 75.0 475.0 {p6-AFinO1} 0 e
+t 370.0 220.0 t5 1 1 e
+t 370.0 290.0 t10 3 3 e
+t 370.0 355.0 t11 2 2 e
+p 370.0 385.0 p10 0 e {Poser();} w
+t 370.0 440.0 t12 3 3 e
+p 370.0 185.0 p7 0 e {Reculer(1,1);} w
+p 370.0 250.0 p8 0 e {Prendre();} w
+t 370.0 510.0 t13 20 22 e
+p 370.0 550.0 {p12-FinO2} 0 e
+t 75.0 290.0 t3 2 2 e
+t 75.0 510.0 t16 0 w n
+t 75.0 440.0 t7 15 15 e
+t 75.0 70.0 t0 c 0 w n Operateur e
+p 75.0 175.0 p2 0 e {Prendre();} w
+p 75.0 35.0 p0 1 n
+p 75.0 105.0 p1 0 e {Avancer(1,1);} w
+t 75.0 140.0 t1 1 1 e
+t 75.0 360.0 t4 3 3 e
+p 370.0 320.0 p9 0 e {Avancer(2,1);} w
+p 370.0 475.0 p11_DebutO2 0 e
+p 75.0 550.0 p11 0 e {Prendre();} w
+t 75.0 585.0 t6 0 w n
+t 75.0 655.0 t8 3 3 e
+p 75.0 620.0 p12 0 e {Avancer(2,1);} w
+p 75.0 690.0 p13 0 e {Poser();} ne
+t 75.0 720.0 t9 3 3 e
+p 235.0 335.0 ALARME 0 n {Alarme();} w
+t 290.0 340.0 t15 22 22 n
+p 280.0 440.0 p19 0 n {Reculer(1,1);} s
+p 145.0 440.0 p20 0 n
+t 200.0 440.0 t18 1 1 n
+p 150.0 715.0 p21 0 n {Reculer(1,1);} ne
+t 195.0 655.0 t19 1 1 n
+p 270.0 595.0 p22 0 n
+e {p6-AFinO1} t16 1 n
+e t4 {p5-DebutO1} 1 n
+e p11_DebutO2 t13 1 n
+e t13 {p12-FinO2} 1 n
+e p10 t12 1 n
+e t11 p10 1 n
+e p9 t11 1 n
+e t10 p9 1 n
+e p8 t10 1 n
+e t5 p8 1 n
+e p7 t5 1 n
+e p4 t4 1 n
+e t3 p4 1 n
+e p3 t3 1 n
+e t2 p3 1 n
+e p2 t2 1 n
+e t1 p2 1 n
+e p1 t1 1 n
+e t0 p1 1 n
+e p0 t0 1 n
+e t7 {p6-AFinO1} 1 n
+e t12 p11_DebutO2 1 n
+e t16 p11 1 n
+e p11 t6 1 n
+e t6 p12 1 n
+e p12 t8 1 n
+e t8 p13 1 n
+e p13 t9 1 n
+e t15 ALARME 1 n
+e {p5-DebutO1} t7 1 n
+e t4 0.8208718624 48.75448699 p7 0.2390411493 87.20665111 1 n
+e t12 p19 1 n
+e p19 t18 1 n
+e t18 p20 1 n
+e p11_DebutO2 t15 1 n
+e t9 p21 1 n
+e p21 t19 1 n
+e t19 p22 1 n
+e p22 t13 1 n
+h {reseau_AnalyseTemps_O1-O2} small
+
+
