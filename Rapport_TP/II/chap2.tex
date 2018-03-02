@@ -41,7 +41,7 @@ L'analyse temporelle de réseau nécessite un réseau tel que nous vous présent
 \caption{Réseau de PETRI Temporels pour l'analyse de 2 opérations}\label{fig:RdpAnalyseIII-2}
 \end{figure}
 
-Avec la version de \emph{TINA} adéquate, nous avons réalisé la construction d'un graphe des classes accessibles. Ce graphe comporte 29 classes que nous n'avons pas représenté graphiquement, cependant vous pouvez trouver le rapport d'analyse du logiciel en annexe \ref{Annex:analyse}. 
+Avec la version de \emph{TINA} adéquate, nous avons réalisé la construction d'un graphe des classes accessibles. Ce graphe comporte 22 classes que nous n'avons pas représenté graphiquement, cependant vous pouvez trouver le rapport d'analyse du logiciel en annexe \ref{Annex:analyse}. 
 
 \paragraph*{Vivacité du réseau} Dans cette analyse, nous nous referons dans un premier temps à cette bonne propriété. En effet, le résultat obtenu (disponible à la ligne 244) nous indique que les 2 transitions $t_5$ et $t_{13}$ ne sont jamais franchi. Ceci signifie que les places $p_{18}$ et $p_{17}$ ne sont jamais marqué, car le seul moyen existant pour qu'un jeton soit dans ces places est en franchissant respectivement cette transition. Donc, l'alarme n'est jamais activée.
 
@@ -57,8 +57,10 @@ Donc, si l'intervalle temporelle des transitions atteint $d_{i_{max}} - d_{i_{mi
 %--> On connait alors le temps des opé (dispo sur les intervalles restant de t13 et t9) 
 %--> On doit obtenir le max-min sur les lignes 153 et 194
 
-
-
 \section{Mise au point des Intervalles Temporels}
+Avec la conclusion précédente, nous avons pu déterminer l'ajustement nécessaire. Toutefois, nous ne pouvons pas caler toutes les intervalles d'un seul coup, nous devons les placer l'une après l'autre, dans l'ordre dans lequel les opérations sont lancées.
+
+\paragraph*{Opération $O_1$}
+A partir du graphe des classes établit à partir du modèle \ref{fig:RdpAnalyseIII-2}, nous avons le dernier intervalle temporelle atteint par la transition $t_5$. 
 $d_{1_{min}} = 15$
 $d_{2_{min}} = 20$
