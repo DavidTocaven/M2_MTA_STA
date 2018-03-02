@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.21)  1 MAR 2018 23:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.21)  2 MAR 2018 01:21
 entering extended mode
 **./main.tex
 (main.tex
@@ -645,7 +645,7 @@ Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count173
 
 (page_de_garde/page_de_garde.tex
-<./page_de_garde/logo_ups.png, id=66, 941.76843pt x 304.88907pt>
+<./page_de_garde/logo_ups.png, id=70, 941.76843pt x 304.88907pt>
 File: ./page_de_garde/logo_ups.png Graphic file (type png)
 
 <use ./page_de_garde/logo_ups.png>
@@ -654,7 +654,7 @@ Package pdftex.def Info: ./page_de_garde/logo_ups.png used on input line 11.
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 31.
  ("D:\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) <./page_de_garde/M2ASTR-TP-MACSED-STA.jpg, id=68, 449.0563pt x 235.40373pt>
+) <./page_de_garde/M2ASTR-TP-MACSED-STA.jpg, id=72, 449.0563pt x 235.40373pt>
 File: ./page_de_garde/M2ASTR-TP-MACSED-STA.jpg Graphic file (type jpg)
 
 <use ./page_de_garde/M2ASTR-TP-MACSED-STA.jpg>
@@ -662,14 +662,14 @@ Package pdftex.def Info: ./page_de_garde/M2ASTR-TP-MACSED-STA.jpg used on input
  line 44.
 (pdftex.def)             Requested size: 290.22107pt x 152.14494pt.
 
-<./page_de_garde/logo_fsi.png, id=69, 383.4325pt x 132.495pt>
+<./page_de_garde/logo_fsi.png, id=73, 383.4325pt x 132.495pt>
 File: ./page_de_garde/logo_fsi.png Graphic file (type png)
 
 <use ./page_de_garde/logo_fsi.png>
 Package pdftex.def Info: ./page_de_garde/logo_fsi.png used on input line 49.
 (pdftex.def)             Requested size: 164.67969pt x 56.9055pt.
 
-<./page_de_garde/logo_eea.jpg, id=70, 105.39375pt x 124.465pt>
+<./page_de_garde/logo_eea.jpg, id=74, 105.39375pt x 124.465pt>
 File: ./page_de_garde/logo_eea.jpg Graphic file (type jpg)
 
 <use ./page_de_garde/logo_eea.jpg>
@@ -702,7 +702,7 @@ l.1 \chapter
 
 ]
 Chapitre 1.
-<./I/images/III-1_v3.pdf, id=119, 499.8675pt x 507.89754pt>
+<./I/images/III-1_v3.pdf, id=123, 499.8675pt x 507.89754pt>
 File: ./I/images/III-1_v3.pdf Graphic file (type pdf)
 
 <use ./I/images/III-1_v3.pdf>
@@ -715,14 +715,14 @@ Package pdftex.def Info: ./I/images/III-1_v3.pdf used on input line 8.
 LaTeX Warning: Command \c invalid in math mode on input line 20.
 
 Missing character: There is no ç in font cmr10!
-<./I/images/III-1_v3_esti.pdf, id=153, 697.60625pt x 676.5275pt>
+<./I/images/III-1_v3_esti.pdf, id=157, 697.60625pt x 676.5275pt>
 File: ./I/images/III-1_v3_esti.pdf Graphic file (type pdf)
 
 <use ./I/images/III-1_v3_esti.pdf>
 Package pdftex.def Info: ./I/images/III-1_v3_esti.pdf used on input line 45.
 (pdftex.def)             Requested size: 154.7812pt x 150.10623pt.
 
-<./I/images/III-1_v3_aut.pdf, id=154, 343.36665pt x 180.9526pt>
+<./I/images/III-1_v3_aut.pdf, id=158, 343.36665pt x 180.9526pt>
 File: ./I/images/III-1_v3_aut.pdf Graphic file (type pdf)
 
 <use ./I/images/III-1_v3_aut.pdf>
@@ -731,7 +731,7 @@ Package pdftex.def Info: ./I/images/III-1_v3_aut.pdf used on input line 50.
  [3 <./I/images/III-1_v3_esti.pdf> <./I/images/III-1_v3_aut.pdf>]) (II/chap2.te
 x [4]
 Chapitre 2.
-<./II/images/reseau_CommandeIII-2.pdf, id=178, 495.8525pt x 857.2025pt>
+<./II/images/reseau_CommandeIII-2.pdf, id=182, 495.8525pt x 857.2025pt>
 File: ./II/images/reseau_CommandeIII-2.pdf Graphic file (type pdf)
 
 <use ./II/images/reseau_CommandeIII-2.pdf>
@@ -745,7 +745,7 @@ LaTeX Warning: Float too large for page by 22.0pt on input line 12.
 [5
 
 ] [6 <./II/images/reseau_CommandeIII-2.pdf>]
-<./II/images/reseau-AnalyseIII-2.pdf, id=193, 490.83376pt x 861.2175pt>
+<./II/images/reseau-AnalyseIII-2.pdf, id=197, 490.83376pt x 861.2175pt>
 File: ./II/images/reseau-AnalyseIII-2.pdf Graphic file (type pdf)
 
 <use ./II/images/reseau-AnalyseIII-2.pdf>
@@ -797,35 +797,25 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 153.
 (main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 153.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 153.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: D109BD208874824DCABB378F59361257;1242
-(rerunfilecheck)             After:  028FC5895C8DA381DD83AF5DC79D3514;1329.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 028FC5895C8DA381DD83AF5DC79D3514;1329.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 153.
  ) 
 Here is how much of TeX's memory you used:
- 14499 strings out of 493334
- 208763 string characters out of 3145269
- 398199 words of memory out of 3000000
+ 14498 strings out of 493334
+ 208749 string characters out of 3145269
+ 398184 words of memory out of 3000000
  16679 multiletter control sequences out of 15000+200000
  22969 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,11n,49p,929b,1877s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Lucien\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\eccc1000.pk> <C:\Users\Lucien\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
-n\ec\dpi600\ecti1000.pk> <C:\Users\Lucien\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
-our\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\Lucien\AppData\Local\MiKTeX\2.9\f
-onts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\Lucien\AppData\Local\M
-iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Lucien\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\
+\ecrm0800.pk> <C:\Users\Lucien\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\eccc1000.pk> <C:\Users\Lucien\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
+our\jknappen\ec\dpi600\ecti1000.pk> <C:\Users\Lucien\AppData\Local\MiKTeX\2.9\f
+onts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\Lucien\AppData\Local\M
+iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\Lucien\AppD
+ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\
 Lucien\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc1200.pk>
  <C:\Users\Lucien\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
 cbx1200.pk> <C:\Users\Lucien\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
@@ -842,9 +832,9 @@ msfonts/cm/cmmi5.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D
 :/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmr7.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
 y10.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (32 pages, 792340 bytes).
+Output written on main.pdf (32 pages, 793910 bytes).
 PDF statistics:
- 2055 PDF objects out of 2073 (max. 8388607)
+ 2060 PDF objects out of 2073 (max. 8388607)
  1066 named destinations out of 1200 (max. 500000)
- 174 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 182 words of extra memory for PDF output out of 10000 (max. 10000000)
 

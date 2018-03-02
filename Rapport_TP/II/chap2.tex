@@ -49,11 +49,13 @@ Avec la version de \emph{TINA} adéquate, nous avons réalisé la construction d
 
 Cette analyse nous apporte aussi une information que nous pourrons utiliser dans la prochaine section. Il s'agit de l'intervalle temporelle restante avant le franchissement des transitions $t_5$ et $t_{13}$ avec lequel il est possible de connaitre l'intervalle temporelle passée dans l'opération $O_1$ et $O_2$, respectivement. Nous pouvons observer aux lignes 153 et 194 ces intervalles, elles sont de $[3;3]$ pour $t_3$ et de $[9;9]$ pour $t_{13}$. 
 
-En regardant les intervalles de temps que doivent respecter $O_1$ et $O_2$, nous pouvons
+\paragraph*{Intervalles de temps des opérations} Intéressons nous maintenant au temps d'exécution des opérations. En regardant les intervalles de temps que doivent respecter $O_1$ et $O_2$, nous pouvons connaitre le minimum et le maximum de temps admis pour les opérations. De plus, nous avons à notre disposition le temps passé dans les opérations à l'aide des transitions $t_3$ et $t_{13}$, en regardant dans le graphe des classes les intervalles de temps durant lesquelles elles peuvent être franchies. 
 
---> On sait le temps des opé min max
---> On connait alors le temps des opé (dispo sur les intervalles restant de t13 et t9) 
---> On doit obtenir le max-min sur les lignes 153 et 194
+Donc, si l'intervalle temporelle des transitions atteint $d_{i_{max}} - d_{i_{min}}$u.t, alors la pièce doit être sorti du bac. Nous allons donc, dans la prochaine section, faire en sorte que les dernières intervalles temporelle atteinte pour $t_3$ et $t_{13}$ soit comprises entre : $[0;d_{i_{max}} - d_{i_{min}}]$.
+
+%--> On sait le temps des opé min max
+%--> On connait alors le temps des opé (dispo sur les intervalles restant de t13 et t9) 
+%--> On doit obtenir le max-min sur les lignes 153 et 194
 
 
 
