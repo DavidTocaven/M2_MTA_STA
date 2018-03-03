@@ -32,5 +32,7 @@ Afin d'étudier la commande, nous avons ajouté au modèle de commande précéde
 Nous avons fait une analyse de ce réseau par la méthode du graphe des classes à l'aide de TINA. Cela donne un graphe à 40 classes. Le résultat de l'analyse est disponible en annexe page \pageref{Annex:III}. Nous avons étudier le graphe afin de vérifier que les places activant les alarmes ne sont jamais marquées. Il s'agit des places $p_18$ pour l'opération $o_1$, $p_17$ pour l'opération $o_2$, $p_37$ pour l'opération $o_3$ et $p_26$ pour l'opération $o_4$. Aucune des places déclenchant l'arme n'est marqué n'apparait dans une classe du graphe, donc notre commande ne commet pas d'erreur d'ordonnancement.
 
 
-
+\newpage
 \section{Implémentation}
+Nous n'avons pas eu le temps de réaliser l'implémentation en C de notre modèle de commande. 
+Si nous avions eu le temps, nous aurions fait une implémentation de même type que celle proposé en annexe de l'énoncé. Nous aurions créer 3 temporisations pour les transitions $t_7$, $t_{14}$ et $t_{28}$ afin que la commande attende et d'autres pour les transitions $t_{5}$, $t_{13}$, $t_{33}$ et $t_{23}$ nécessaires au déclenchement éventuel de l'alarme.
