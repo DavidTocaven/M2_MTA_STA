@@ -1,0 +1,188 @@
+Tina version 2.8.4 -- 01/05/16 -- LAAS/CNRS
+
+mode -W
+
+REACHABILITY ANALYSIS ------------------------------------------- 
+
+bounded
+
+22 classe(s), 21 transition(s)
+
+CLASSES:
+
+class 0
+    marking
+	p0
+    domain
+	0 <= t0
+
+class 1
+    marking
+	p1
+    domain
+	1 <= t1 <= 1
+
+class 2
+    marking
+	p2
+    domain
+	3 <= t2 <= 3
+
+class 3
+    marking
+	p3
+    domain
+	2 <= t3 <= 2
+
+class 4
+    marking
+	p4
+    domain
+	3 <= t4 <= 3
+
+class 5
+    marking
+	p20 p9
+    domain
+	16 <= t5 <= 16
+	1 <= t6 <= 1
+
+class 6
+    marking
+	p10 p20
+    domain
+	15 <= t5 <= 15
+	3 <= t7 <= 3
+
+class 7
+    marking
+	p11 p20
+    domain
+	12 <= t5 <= 12
+	2 <= t8 <= 2
+
+class 8
+    marking
+	p12 p20
+    domain
+	10 <= t5 <= 10
+	3 <= t9 <= 3
+
+class 9
+    marking
+	p19 p20 p21
+    domain
+	1 <= t10 <= 1
+	22 <= t13 <= 22
+	7 <= t5 <= 7
+
+class 10
+    marking
+	p19 p20 p22
+    domain
+	2 <= t12 <= 2
+	21 <= t13 <= 21
+	6 <= t5 <= 6
+
+class 11
+    marking
+	p19 p20 p5
+    domain
+	19 <= t13 <= 19
+	3 <= t21 <= 3
+	4 <= t5 <= 4
+
+class 12
+    marking
+	p19 p20 p6
+    domain
+	16 <= t13 <= 16
+	0 <= t15 <= 0
+	1 <= t5 <= 1
+
+class 13
+    marking
+	p19 p7
+    domain
+	16 <= t13 <= 16
+	2 <= t16 <= 2
+
+class 14
+    marking
+	p19 p8
+    domain
+	3 <= t11 <= 3
+	14 <= t13 <= 14
+
+class 15
+    marking
+	p19 p23
+    domain
+	11 <= t13 <= 11
+	1 <= t17 <= 1
+
+class 16
+    marking
+	p19 p24
+    domain
+	10 <= t13 <= 10
+	0 <= t14 <= 0
+
+class 17
+    marking
+	p13 p19
+    domain
+	10 <= t13 <= 10
+	3 <= t22 <= 3
+
+class 18
+    marking
+	p14 p19
+    domain
+	7 <= t13 <= 7
+	0 <= t18 <= 0
+
+class 19
+    marking
+	p15
+    domain
+	2 <= t19 <= 2
+
+class 20
+    marking
+	p16
+    domain
+	3 <= t20 <= 3
+
+class 21
+    marking
+	
+    domain
+
+
+REACHABILITY GRAPH:
+
+0 -> t0 in [0,w[/1
+1 -> t1 in [1,1]/2
+2 -> t2 in [3,3]/3
+3 -> t3 in [2,2]/4
+4 -> t4 in [3,3]/5
+5 -> t6 in [1,1]/6
+6 -> t7 in [3,3]/7
+7 -> t8 in [2,2]/8
+8 -> t9 in [3,3]/9
+9 -> t10 in [1,1]/10
+10 -> t12 in [2,2]/11
+11 -> t21 in [3,3]/12
+12 -> t15 in [0,0]/13
+13 -> t16 in [2,2]/14
+14 -> t11 in [3,3]/15
+15 -> t17 in [1,1]/16
+16 -> t14 in [0,0]/17
+17 -> t22 in [3,3]/18
+18 -> t18 in [0,0]/19
+19 -> t19 in [2,2]/20
+20 -> t20 in [3,3]/21
+21 -> 
+
+0.000s

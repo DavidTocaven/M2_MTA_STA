@@ -6,7 +6,7 @@
 \BOOKMARK [0][-]{chapter.2}{Mod\351lisation et analyse des premi\350res op\351rations de chaque pi\350ce}{}% 6
 \BOOKMARK [1][-]{section.2.1}{R\351seau de PETRI Temporels de commande de deux op\351rations}{chapter.2}% 7
 \BOOKMARK [1][-]{section.2.2}{Analyse du mod\350le avec TINA}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.3}{Mise au point des Intervalles Temporels}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.3}{Mise au point des Intervalles Temporelles}{chapter.2}% 9
 \BOOKMARK [0][-]{chapter.3}{}{}% 10
 \BOOKMARK [0][-]{chapter.4}{Conclusion}{}% 11
 \BOOKMARK [-1][-]{part*.7}{Annexes}{}% 12
@@ -15,3 +15,4 @@
 \BOOKMARK [1][-]{section.4.2}{Mesure du temps }{chapter*.8}% 15
 \BOOKMARK [0][-]{chapter*.9}{Analyse TINA}{part*.7}% 16
 \BOOKMARK [1][-]{section.4.1}{Analyse d'accessibilit\351 du mod\350le 2 op\351rations}{chapter*.9}% 17
+\BOOKMARK [1][-]{section.4.2}{Graphe des classes de Mise au point des Intervallles Temporelles}{chapter*.9}% 18

@@ -57,7 +57,7 @@ Donc, si l'intervalle temporelle des transitions atteint $d_{i_{max}} - d_{i_{mi
 %--> On connait alors le temps des opé (dispo sur les intervalles restant de t13 et t9) 
 %--> On doit obtenir le max-min sur les lignes 153 et 194
 
-\section{Mise au point des Intervalles Temporels}
+\section{Mise au point des Intervalles Temporelles}
 Avec la conclusion précédente, nous avons pu déterminer l'ajustement nécessaire. Toutefois, nous ne pouvons pas caler toutes les intervalles d'un seul coup, nous devons les placer l'une après l'autre, dans l'ordre dans lequel les opérations sont lancées.
 
 \paragraph*{Opération $O_1$}
@@ -65,6 +65,16 @@ A partir du graphe des classes établit à partir du modèle \ref{fig:RdpAnalyse
 \begin{equation}\label{eqn:intervalleTemporelleT5}
 3 \Leftarrow t_5 \Leftarrow 3
 \end{equation} 
-Nous savons que pour cette opération, la différence entre la durée maximale $d_{max}$ et la durée minimale $d_{min}$ d'une opération, qui est : $d_{max} - d_{min} = 16-15 = 1$, nous savons que l'intervalle \ref{eqn:intervalleTemporelleT5} doit strictement inférieure à $1$. De cette manière, nous pouvons assurer que la pièce est resté au moins le temps nécessaire 
+Nous savons que pour cette opération, la différence entre la durée maximale $d_{max}$ et la durée minimale $d_{min}$ d'une opération, qui est : $d_{max} - d_{min} = 16-15 = 1$, nous savons que l'intervalle \ref{eqn:intervalleTemporelleT5} doit inférieure à $1$, sans atteindre $0$. De cette manière, nous pouvons assurer que la pièce est restée dans l'opération suffisamment longtemps et n'a pas fait sonner l'alarme. Pour obtenir ce résultat sur $t_5$, nous modifions l'intervalle temporelle de la transition $t_{12}$ de cette façon : 
+\begin{equation}
+t_{12} \in [0;0] \text{ devient : }t_{12} \in [2;2] 
+\end{equation}
+
+
+Une fois cette transition modifiée, nous avons retracé un graphe des classes à partir duquel nous pourrons ajuster l'opération suivante. Une partie de l'analyse d'accessibilité est disponible en annexe, page \pageref{Annex:GDC-miseauPointI-Ope1}.
+\paragraph*{Opération}
+
+
+ 
 $d_{1_{min}} = 15$
 $d_{2_{min}} = 20$
