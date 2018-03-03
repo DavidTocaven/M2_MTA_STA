@@ -80,9 +80,16 @@ Nous pouvons observer, dans le nouveau graphe de classes, l'intervalle atteint p
 \end{equation}
 En suivant le même raisonnement que dans le paragraphe précédent, en sachant qu'ici nous avons :  $d_{max} - d_{min} = 22-20 = 2$. Il vient donc comme intervalle temporelle sur la transition $t_{14}$
 
-\paragraph*{Modèle fini}
-\begin{figure}
+\paragraph*{Modèle fini} Maintenant que les intervalles vides ont été réglées, nous pouvons vous présenter le modèle complet. Il se trouve en figure (\ref{fig:RdpAjusteeIII-2}).
+
+\begin{figure}[!ht]
 \centering
-\includegraphics[height = \textheight]{./II/images/reseau-AjustementIII-2.pdf}
+\includegraphics[height = \textheight]{./II/images/reseau-AjustementIII-2.pdf}\label{fig:RdpAjusteeIII-2}
 \caption{Réseau de PETRI Temporels Ajusté de 2 opérations}
 \end{figure}
+
+Nous pouvons suite à ce modèle, effectuer une analyse. Cette fois-ci, nous effectuerons un dernier graphe des classes, qui correspond au graphe utilisé pour ajuster l'opération 2, disponible en annexe en page \pageref{Annex:GDC-miseauPointI-Ope2}. Nous pouvons voir que les places $p_{17}$ et $p_{18}$ n'apparaissent dans aucune classe et donc, ne sont jamais marquées. Ainsi, l'analyse du réseau montre qu'avec cette commande, l'alarme ne du \emph{STA} ne va pas sonner.
+
+
+Pour terminer la commande du système, nous devons enlever les transitions temporelles pour les remplacer par les signaux que nous pouvons récupérer, en laissant les transitions temporelles de commande, celles qui permettent d'activer les alarmes et qui permettent au chariot d'attendre les fins d'opérations. 
+%	Implémenation --> Faireapparaitre les signaux, laissé uniquement les tempos de commande 
