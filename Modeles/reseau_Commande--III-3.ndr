@@ -1,0 +1,100 @@
+t 116.0 50.0 t0 c 0 w n {Operateur()} s
+p 206.0 50.0 p1 0 s {Avancer(1,1)} n
+p 366.0 50.0 p2 0 s {Prendre();} n
+p 526.0 50.0 p3 0 s {Avancer(2,1);} sw
+p 836.0 52.0 p20 0 s
+p 374.0 213.0 p10 0 n {Prendre();} s
+t 454.0 213.0 t7 0 w n
+p 534.0 213.0 p11 0 n {Avancer(2,1);} sw
+p 684.0 213.0 p12 0 s {Poser();} n
+t 624.0 213.0 t8 c 0 w n FinAvancer s
+t 462.0 398.0 t12 0 w n
+t 823.0 591.0 t14 0 w n
+t 280.0 591.0 t16 c 0 w n FinAvancer n
+p 360.0 591.0 p8 0 n {Poser();} s
+t 443.0 591.0 t11 0 w n
+t 896.0 336.0 t18 0 0 n
+p 991.0 336.0 p15 0 nw {Avancer(2,1);} n
+t 1066.0 336.0 t19 c 0 w n FinAvancer n
+p 1141.0 336.0 p16 0 nw {Poser();} n
+p 532.0 398.0 p5 0 s {Prendre();} n
+t 587.0 398.0 t21 0 w n
+t 720.0 396.0 t15 0 0 n
+p 200.0 591.0 p7 0 n {Avancer(2,1);} s
+p 903.0 589.0 p13 0 nw {Prendre();} n
+p 1048.0 589.0 p14 0 nw
+t 993.0 589.0 t22 0 w n
+p 522.0 589.0 p23 0 ne {Reculer(1,1);} s
+t 647.0 589.0 t17 c 0 w n FinReculer s
+p 642.0 398.0 p6 0 s
+p 737.0 589.0 p24 0 n
+p 31.0 50.0 p0 1 s
+t 765.0 50.0 t4 0 w n
+t 289.0 213.0 t6 c 0 w n FinReculer n
+t 911.0 52.0 t5 16 16 n
+p 696.0 50.0 p4 0 s {Poser();} n
+t 616.0 50.0 t3 c 0 w n FinAvancer s
+t 446.0 50.0 t2 0 w n
+p 1016.0 52.0 p18 0 s {Alarme();} n
+p 836.0 212.0 p19 0 w
+p 204.0 213.0 p9 0 n {Reculer(1,1)} s
+t 759.0 213.0 t9 0 w n
+t 921.0 212.0 t13 22 22 n
+p 1011.0 212.0 p17 0 n {Alarme();} s
+p 382.0 398.0 p22 0 w
+t 292.0 398.0 t10 c 0 w n FinReculer s
+p 212.0 398.0 p21 0 w {Reculer(1,1);} s
+t 1221.0 336.0 t20 0 w n
+t 281.0 50.0 t1 c 0 w n FinAvancer s
+e t17 p24 1 n
+e p23 t17 1 n
+e p14 0.1809341762 45.18849411 t18 0.5605594708 96.93296653 1 n
+e t22 p14 1 n
+e p13 t22 1 n
+e p6 t15 1 n
+e t21 p6 1 n
+e p5 t21 1 n
+e p15 t19 1 n
+e t19 p16 1 n
+e p16 t20 1 n
+e t18 p15 1 n
+e p19 0.75 40.0 t18 0.4521070572 60.7289058 1 n
+e p20 t15 1 n
+e t14 p13 1 n
+e p24 t14 1 n
+e t11 p23 1 n
+e p8 t11 1 n
+e p0 t0 1 n
+e t0 p1 1 n
+e p1 t1 1 n
+e t1 p2 1 n
+e p2 t2 1 n
+e t2 p3 1 n
+e p3 t3 1 n
+e t3 p4 1 n
+e p4 t4 1 n
+e t4 p20 1 n
+e p20 t5 1 n
+e t5 p18 1 n
+e t8 p12 1 n
+e p11 t8 1 n
+e t7 p11 1 n
+e p10 t7 1 n
+e t6 p10 1 n
+e p9 t6 1 n
+e p12 t9 1 n
+e t9 0.7789103092 49.81967483 p21 0.3860858707 91.43850382 1 n
+e p21 t10 1 n
+e t12 p5 1 n
+e t10 p22 1 n
+e p22 t12 1 n
+e t4 0.7386510645 70.17834424 p9 0.4084183225 132.3064624 1 n
+e t15 0.7992105354 75.58438973 p7 0.4021160412 133.454112 1 n
+e p7 t16 1 n
+e t16 p8 1 n
+e t9 p19 1 n
+e p19 t13 1 n
+e t13 p17 1 n
+h {reseau_Commande--III-3}
+
+
