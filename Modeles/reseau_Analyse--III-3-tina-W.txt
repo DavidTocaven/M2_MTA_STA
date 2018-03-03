@@ -1,0 +1,437 @@
+Tina version 2.8.4 -- 10/27/06 -- LAAS/CNRS
+
+mode -W
+
+INPUT NET ------------------------------------------------------- 
+
+parsed net {reseau_Analyse--III-3}
+
+40 places, 35 transitions
+
+net {reseau_Analyse--III-3}
+tr t0 : {Operateur();} p0 -> p1 
+tr t1 : FinAvancer [1,1] p1 -> p2 
+tr t10 : FinReculer [1,1] p21 -> p22 
+tr t11 [3,3] p8 -> p23 p36 
+tr t12 [2,2] p22 -> p5 
+tr t13 [22,22] p19 -> p17 
+tr t14 [3,3] p24 -> p13 
+tr t15 [0,0] p20 p6 -> p7 
+tr t16 : FinAvancer [2,2] p7 -> p8 
+tr t17 : FinReculer [1,1] p23 -> p24 
+tr t18 [0,0] p14 p19 -> p15 
+tr t19 : FinAvancer [2,2] p15 -> p16 
+tr t2 [3,3] p2 -> p3 
+tr t20 [3,3] p16 -> p25 p27 
+tr t21 [3,3] p5 -> p6 
+tr t22 [3,3] p13 -> p14 
+tr t23 [28,28] p25 -> p26 
+tr t24 : Att3 [3,3] p27 -> p28 
+tr t25 : FinReculer [2,2] p28 -> p29 
+tr t26 [3,3] p29 p36 -> p30 
+tr t27 : FinAvancer [2,2] p30 -> p31 
+tr t28 [7,7] p31 -> p32 
+tr t29 [3,3] p32 -> p33 
+tr t3 : FinAvancer [2,2] p3 -> p4 
+tr t30 : FinReculer [1,1] p33 -> p34 
+tr t31 [3,3] p25 p34 -> p35 
+tr t33 [22,22] p36 -> p37 
+tr t35 : FinAvancer [2,2] p35 -> p40 
+tr t36 [3,3] p40 -> p41 
+tr t4 [3,3] p4 -> p20 p9 
+tr t5 [16,16] p20 -> p18 
+tr t6 : FinReculer [1,1] p9 -> p10 
+tr t7 [3,3] p10 -> p11 
+tr t8 : FinAvancer [2,2] p11 -> p12 
+tr t9 [3,3] p12 -> p19 p21 
+pl p0 (1)
+pl p1 : {Avancer(1,1);}
+pl p10 : {Prendre();}
+pl p11 : {Avancer(2,1);}
+pl p12 : {Poser();}
+pl p13 : {Prendre();}
+pl p15 : {Avancer(2,1);}
+pl p16 : {Poser();}
+pl p17 : {Alarme();}
+pl p18 : {Alarme();}
+pl p2 : {Prendre();}
+pl p21 : {Reculer(1,1);}
+pl p23 : {Reculer(1,1);}
+pl p26 : {Alarme();}
+pl p28 : {Reculer(2,1);}
+pl p29 : {Prendre();}
+pl p3 : {Avancer(2,1);}
+pl p30 : {Avancer(2,1);}
+pl p32 : {Poser();}
+pl p33 : {Reculer(1,1);}
+pl p34 : {Prendre();}
+pl p35 : {Avancer(2,1);}
+pl p37 : {Alarme();}
+pl p4 : {Poser();}
+pl p40 : {Poser();}
+pl p5 : {Prendre();}
+pl p7 : {Avancer(2,1);}
+pl p8 : {Poser();}
+pl p9 : {Reculer(1,1)}
+
+0.000s
+
+REACHABILITY ANALYSIS ------------------------------------------- 
+
+bounded
+
+32 classe(s), 31 transition(s)
+
+CLASSES:
+
+class 0
+    marking
+	p0
+    domain
+	0 <= t0
+
+class 1
+    marking
+	p1
+    domain
+	1 <= t1 <= 1
+
+class 2
+    marking
+	p2
+    domain
+	3 <= t2 <= 3
+
+class 3
+    marking
+	p3
+    domain
+	2 <= t3 <= 2
+
+class 4
+    marking
+	p4
+    domain
+	3 <= t4 <= 3
+
+class 5
+    marking
+	p20 p9
+    domain
+	16 <= t5 <= 16
+	1 <= t6 <= 1
+
+class 6
+    marking
+	p10 p20
+    domain
+	15 <= t5 <= 15
+	3 <= t7 <= 3
+
+class 7
+    marking
+	p11 p20
+    domain
+	12 <= t5 <= 12
+	2 <= t8 <= 2
+
+class 8
+    marking
+	p12 p20
+    domain
+	10 <= t5 <= 10
+	3 <= t9 <= 3
+
+class 9
+    marking
+	p19 p20 p21
+    domain
+	1 <= t10 <= 1
+	22 <= t13 <= 22
+	7 <= t5 <= 7
+
+class 10
+    marking
+	p19 p20 p22
+    domain
+	2 <= t12 <= 2
+	21 <= t13 <= 21
+	6 <= t5 <= 6
+
+class 11
+    marking
+	p19 p20 p5
+    domain
+	19 <= t13 <= 19
+	3 <= t21 <= 3
+	4 <= t5 <= 4
+
+class 12
+    marking
+	p19 p20 p6
+    domain
+	16 <= t13 <= 16
+	0 <= t15 <= 0
+	1 <= t5 <= 1
+
+class 13
+    marking
+	p19 p7
+    domain
+	16 <= t13 <= 16
+	2 <= t16 <= 2
+
+class 14
+    marking
+	p19 p8
+    domain
+	3 <= t11 <= 3
+	14 <= t13 <= 14
+
+class 15
+    marking
+	p19 p23 p36
+    domain
+	11 <= t13 <= 11
+	1 <= t17 <= 1
+	22 <= t33 <= 22
+
+class 16
+    marking
+	p19 p24 p36
+    domain
+	10 <= t13 <= 10
+	3 <= t14 <= 3
+	21 <= t33 <= 21
+
+class 17
+    marking
+	p13 p19 p36
+    domain
+	7 <= t13 <= 7
+	3 <= t22 <= 3
+	18 <= t33 <= 18
+
+class 18
+    marking
+	p14 p19 p36
+    domain
+	4 <= t13 <= 4
+	0 <= t18 <= 0
+	15 <= t33 <= 15
+
+class 19
+    marking
+	p15 p36
+    domain
+	2 <= t19 <= 2
+	15 <= t33 <= 15
+
+class 20
+    marking
+	p16 p36
+    domain
+	3 <= t20 <= 3
+	13 <= t33 <= 13
+
+class 21
+    marking
+	p25 p27 p36
+    domain
+	28 <= t23 <= 28
+	3 <= t24 <= 3
+	10 <= t33 <= 10
+
+class 22
+    marking
+	p25 p28 p36
+    domain
+	25 <= t23 <= 25
+	2 <= t25 <= 2
+	7 <= t33 <= 7
+
+class 23
+    marking
+	p25 p29 p36
+    domain
+	23 <= t23 <= 23
+	3 <= t26 <= 3
+	5 <= t33 <= 5
+
+class 24
+    marking
+	p25 p30
+    domain
+	20 <= t23 <= 20
+	2 <= t27 <= 2
+
+class 25
+    marking
+	p25 p31
+    domain
+	18 <= t23 <= 18
+	7 <= t28 <= 7
+
+class 26
+    marking
+	p25 p32
+    domain
+	11 <= t23 <= 11
+	3 <= t29 <= 3
+
+class 27
+    marking
+	p25 p33
+    domain
+	8 <= t23 <= 8
+	1 <= t30 <= 1
+
+class 28
+    marking
+	p25 p34
+    domain
+	7 <= t23 <= 7
+	3 <= t31 <= 3
+
+class 29
+    marking
+	p35
+    domain
+	2 <= t35 <= 2
+
+class 30
+    marking
+	p40
+    domain
+	3 <= t36 <= 3
+
+class 31
+    marking
+	p41
+    domain
+
+
+REACHABILITY GRAPH:
+
+0 -> t0 in [0,w[/1
+1 -> t1 in [1,1]/2
+2 -> t2 in [3,3]/3
+3 -> t3 in [2,2]/4
+4 -> t4 in [3,3]/5
+5 -> t6 in [1,1]/6
+6 -> t7 in [3,3]/7
+7 -> t8 in [2,2]/8
+8 -> t9 in [3,3]/9
+9 -> t10 in [1,1]/10
+10 -> t12 in [2,2]/11
+11 -> t21 in [3,3]/12
+12 -> t15 in [0,0]/13
+13 -> t16 in [2,2]/14
+14 -> t11 in [3,3]/15
+15 -> t17 in [1,1]/16
+16 -> t14 in [3,3]/17
+17 -> t22 in [3,3]/18
+18 -> t18 in [0,0]/19
+19 -> t19 in [2,2]/20
+20 -> t20 in [3,3]/21
+21 -> t24 in [3,3]/22
+22 -> t25 in [2,2]/23
+23 -> t26 in [3,3]/24
+24 -> t27 in [2,2]/25
+25 -> t28 in [7,7]/26
+26 -> t29 in [3,3]/27
+27 -> t30 in [1,1]/28
+28 -> t31 in [3,3]/29
+29 -> t35 in [2,2]/30
+30 -> t36 in [3,3]/31
+31 -> 
+
+0.000s
+
+LIVENESS ANALYSIS ----------------------------------------------- 
+
+not live
+
+1 dead classe(s), 1 live classe(s)
+4 dead transition(s), 0 live transition(s)
+
+dead classe(s): 31
+
+dead transition(s): t5 t33 t23 t13
+
+STRONG CONNECTED COMPONENTS:
+
+31 : 0
+30 : 1
+29 : 2
+28 : 3
+27 : 4
+26 : 5
+25 : 6
+24 : 7
+23 : 8
+22 : 9
+21 : 10
+20 : 11
+19 : 12
+18 : 13
+17 : 14
+16 : 15
+15 : 16
+14 : 17
+13 : 18
+12 : 19
+11 : 20
+10 : 21
+9 : 22
+8 : 23
+7 : 24
+6 : 25
+5 : 26
+4 : 27
+3 : 28
+2 : 29
+1 : 30
+0 : 31
+
+SCC GRAPH:
+
+31 -> t0/30
+30 -> t1/29
+29 -> t2/28
+28 -> t3/27
+27 -> t4/26
+26 -> t6/25
+25 -> t7/24
+24 -> t8/23
+23 -> t9/22
+22 -> t10/21
+21 -> t12/20
+20 -> t21/19
+19 -> t15/18
+18 -> t16/17
+17 -> t11/16
+16 -> t17/15
+15 -> t14/14
+14 -> t22/13
+13 -> t18/12
+12 -> t19/11
+11 -> t20/10
+10 -> t24/9
+9 -> t25/8
+8 -> t26/7
+7 -> t27/6
+6 -> t28/5
+5 -> t29/4
+4 -> t30/3
+3 -> t31/2
+2 -> t35/1
+1 -> t36/0
+0 -> 
+
+0.000s
+
+ANALYSIS COMPLETED ---------------------------------------------- 
+
+
+
