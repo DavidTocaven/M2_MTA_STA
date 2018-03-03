@@ -12,7 +12,7 @@ Nous avons décidé d'étudier l'ordonnancement optimal par un chronogramme car 
 Nous avons positionné les opérations au plus tôt, en vérifiant qu'elles n'empêchent pas de récupérer les pièces avant leurs alarmes respectives. Par exemple, l'opération $o_5$ pourrait commencer à partir de la 57\ieme seconde mais il serait impossible de retirer les deux pièces avant leurs alarmes donc nous avons décalé $o_5$ de façon à ce que, ni la pose, ni la prise de la pièce $p_1$ ne perturbe la prise et la pose de $p_2$. De plus, nous prenons pour hypothèse que les deux dernières opérations $o_5$ et $o_6$ n'ont pas de date récupération maximale et peuvent rester respectivement en $e_7$ et en $e_8$ car ces deux emplacements représentant le bac de sortie. Si nous avions pris le partie de les ramener à leurs emplacements initiaux, cela n'aurait pas été possible avec l'ordonnancement actuel, il aurait fallu organiser les opérations différemment de façon à avoir le temps de ramener les pièces au début ce qui nécessite beaucoup de temps à cause de la distance de déplacement importante.
 
 \section{Réseau de Petri de commande}
-Nous avons transformer la séquence d'actions de la ligne \emph{Chariot} de l'ordonnancement précédent (voir figure \ref{fig:ordoExcel}) en un réseau de Petri temporel. 
+Nous avons transformer la séquence d'actions de la ligne \emph{Chariot} de l'ordonnancement précédent (voir figure \ref{fig:ordoExcel}) en un réseau de Petri temporel. À chaque fois que le charriot dépose une pièce, on lance un
 \section{Analyse par graphe de classes}
 
 \section{Implémentation}
