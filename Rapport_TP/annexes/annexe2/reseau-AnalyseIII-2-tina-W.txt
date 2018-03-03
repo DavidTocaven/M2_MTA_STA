@@ -9,7 +9,7 @@ parsed net {reseau-AnalyseIII-2}
 25 places, 23 transitions
 
 net {reseau-AnalyseIII-2}
-tr t0 p0 -> p1 
+tr t0 : Operateur p0 -> p1 
 tr t1 [1,1] p1 -> p2 
 tr t10 [1,1] p21 -> p22 
 tr t11 [3,3] p8 -> p23 
