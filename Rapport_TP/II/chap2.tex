@@ -72,9 +72,17 @@ t_{12} \in [0;0] \text{ devient : }t_{12} \in [2;2]
 
 
 Une fois cette transition modifiée, nous avons retracé un graphe des classes à partir duquel nous pourrons ajuster l'opération suivante. Une partie de l'analyse d'accessibilité est disponible en annexe, page \pageref{Annex:GDC-miseauPointI-Ope1}.
+
 \paragraph*{Opération}
+Nous pouvons observer, dans le nouveau graphe de classes, l'intervalle atteint pour la transition $t_{13}$ à la classe 18 (ligne 142) : 
+\begin{equation}
+7 \Leftarrow t_{13} \Leftarrow 7
+\end{equation}
+En suivant le même raisonnement que dans le paragraphe précédent, en sachant qu'ici nous avons :  $d_{max} - d_{min} = 22-20 = 2$. Il vient donc comme intervalle temporelle sur la transition $t_{14}$
 
-
- 
-$d_{1_{min}} = 15$
-$d_{2_{min}} = 20$
+\paragraph*{Modèle fini}
+\begin{figure}
+\centering
+\includegraphics[height = \textheight]{./II/images/reseau-AjustementIII-2.pdf}
+\caption{Réseau de PETRI Temporels Ajusté de 2 opérations}
+\end{figure}
