@@ -125,88 +125,33 @@ while(1)
 		if(operateur==1){  // marquage initial, attente d'un appui sur operateur
 			ps[0]--;
 			ps[1]++;			
-			ti = time(NULL);
+			ti = time(NULL);	// Init dela mesure
 		}
 	}
 
-	if(p[1]==1){	         
-//		printf("p1 \n");    // FinAvancer est a 1 lorsque le capteur ctr est a 1
-		if(FinAvancer==1){  // et qu'on a parcouru toutes les encoches demandees 
-  			ps[1]--;        // Exemple: 3 encoches parcourues si Avancer(2,1)
+	if(p[1]==1){	
+		if(FinAvancer==1){  // Fin de l'avance d'une case 
+  			ps[1]--;        
 			ps[2]++;
 			tf = time(NULL);
-			printf("Avance : %f \n",difftime(tf,ti));
-			Avancer(0,0);	// Remise a zero de la machine a etats definie dans la fonction Avancer
-			
-			
+			// Affichage du temps mis pour parcourir une case	
+			printf("Avance : %f \n",difftime(tf,ti));	
+			// Remise a zero de la machine a etats definie dans la fonction Avancer
+			Avancer(0,0);	
 			ti = time(NULL);
 		}
-	}
-		
-	if(p[2]==1){	
-	
-	/*
-//		printf("p2 \n"); // Passage de e1 vers e2
-		if(FinAvancer==1){		
+	}	
+	if(p[2]==1){	// Fin de la prise d'une piece
 		ps[2]--;
 		ps[3]++;
 		tf = time(NULL);
-			printf("Avance e1 --> e2 : %f \n",difftime(tf,ti));
-			Avancer(0,0);	// Remise a zero de la machine a etats definie dans la fonction Avancer
-			// ti = time(NULL); Inutile dans ce cas la
-		}	*/
-	}	
+		printf("Prendre : %f\n",difftime(tf,ti));		
 
-	if(p[3]==1){						
-//		printf("p3 \n"); // Passage de e2 vers e3
-		if(FinAvancer==1){		
-			ps[3]--;
-			ps[4]++;
-			Avancer(0,0);	// Remise a zero de la machine a etats definie dans la fonction Avancer
-			
-			ti = time(NULL);
-		}				
-		
 	}
-		
-	if(p[4]==1){	
-//		printf("p4 \n");	// Passage de e3 vers e4
-		if(FinAvancer==1){		
-		ps[4]--;
-		ps[5]++;
-		tf = time(NULL);
-			printf("Avance e3 --> e4 : %f \n",difftime(tf,ti));
-			Avancer(0,0);	// Remise a zero de la machine a etats definie dans la fonction Avancer
-			ti = time(NULL);
-		}
-	}
-		
-	if(p[5]==1){	
-//		printf("p5 \n");	// Prendre un objet
-		ps[5]--;
-		ps[6]++;
-	}
-		
-	if(p[6]==1)    // --> fin du Reseau de Petri
-	{			// Poser un objet
-//		printf("p5 \n");	// Prendre un objet
-		ps[6]--;
-		//ps[0]++;
-	}
-
-	/* blocs M */    // Franchissement des transitions
-
-/*	if(p[3]==0 && ps[3]==1)
-	{ 	// du coup, lancement des actions liees au franchissement des transitions    
-		tempo1 = time(NULL); 	// (ici, on recupere le "temps actuel" au moment ou on arrive dans la place p3
-		
-	}							// pour pouvoir ensuite le comparer avec le temps actuel recupere a chaque passage 
-*/								// dans la boucle while -> cf. lecture des entrees et ligne "if(fintempo>=5)")
-
     for(i=0;i<NBPLACES;i++){ 	// et actualisation des etats presents
         p[i] = ps[i];
-	}
-// -----------------------------------------------------------------------------
+	}	
+/ -----------------------------------------------------------------------------
    
       /***************************/
       /* Ecriture des sorties    */
@@ -217,33 +162,12 @@ while(1)
 	 /* blocs G */  // gestion des sorties en fonction du marquage mis a jour
 	 
     if(p[1]==1){
-	Avancer(1,1);
+		Avancer(1,1);
     }
- //   if(p[2]==1){
- //   	Avancer(1,1);
- //   }
 
-    if(p[3]==1){
-        Avancer(1,1);
-    } 
-     
-    if(p[4]==1){
-        Avancer(1,1);   
-    }
     if(p[2]==1){
-    	ti = time(NULL);
-        Poser();
-	tf = time(NULL);  
-	printf("Poser: %f \n",difftime(tf,ti));
-    }
-    
-    if(p[6]==1){
-    	ti = time(NULL);
-        Poser();
-	tf = time(NULL);   
-     	printf("Poser: %f \n",difftime(tf,ti));
-    }
-    
+		Prendre();
+	}
  
 // -----------------------------------------------------------------------------
   	           

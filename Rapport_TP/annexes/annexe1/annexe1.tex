@@ -1,29 +1,48 @@
-\chapter*{Annexe 1 - Mesures de temps}
+\chapter*{Annexe 1 - Mesures des temps du Système physique}
 \addcontentsline{toc}{chapter}{Mesures de temps}
 \setcounter{section}{0}
 % **********************************
 %\addcontentsline{toc}{section}{TITRE}
 \label{Annex:MesuresXY}
-\lstset{
-  language=C,                	  % choose the language of the code
-  numbers=left,                   % where to put the line-numbers
-  stepnumber=1,                   % the step between two line-numbers.
-  numbersep=5pt,                  % how far the line-numbers are from the code
-  backgroundcolor=\color{white},  % choose the background color. You must add \usepackage{color}
-  showspaces=false,               % show spaces adding particular underscores
-  showstringspaces=false,         % underline spaces within strings
-  showtabs=false,                 % show tabs within strings adding particular underscores
-  tabsize=2,                      % sets default tabsize to 2 spaces
-  captionpos=b,                   % sets the caption-position to bottom
-  breaklines=true,                % sets automatic line breaking
-  breakatwhitespace=true%,         % sets if automatic breaks should only happen at whitespace
+\lstdefinestyle{customc}{
+%  language=C,                	  % choose the language of the code
+%  numbers=left,                   % where to put the line-numbers
+%  stepnumber=10,                   % the step between two line-numbers.
+%  numbersep=5pt,                  % how far the line-numbers are from the code
+%  backgroundcolor=\color{white},  % choose the background color. You must add \usepackage{color}
+%  showspaces=false,               % show spaces adding particular underscores
+%  showstringspaces=false,         % underline spaces within strings
+%  showtabs=false,                 % show tabs within strings adding particular underscores
+%  tabsize=2,                      % sets default tabsize to 2 spaces
+%  captionpos=b,                   % sets the caption-position to bottom
+%  breaklines=true,                % sets automatic line breaking
+%  breakatwhitespace=true%,         % sets if automatic breaks should only happen at whitespace
 %  title=\lstname,                 % show the filename of files included with \lstinputlisting;
+  breaklines=true,
+  frame=L,
+  language=C,
+  keywordstyle=\bfseries\color{green!40!black},
+  commentstyle=\itshape\color{purple!40!black},
+  identifierstyle=\color{blue},
+  stringstyle=\color{orange},
+  tabsize  = 2,
+  showstringspaces=false,
 }
 
 \section{Mesure du temps de déplacement et de saisie/dépôt d'une pièce}
-\lstset{title={Mesure de $x$, le temps pour avancer d'un emplacement et de $y$, le temps pour poser ou prendre une pièce.}}
-\lstinputlisting{./annexes/annexe1/mesureDesTempsPhysique.c} %{language = MAtlab}
+Dans le code suivant, vous trouverez le code des blocs FMG utilisé pour mesurer le temps de déplacement d'une case et de la prise du pièce. Nous avons pour cela implémenté la construction d'un Réseau de PETRI à 3 places : $p_0$ attend un appui sur "Opérateur", $p_1$ avance d'une case et $p_2$ prend une pièce. 
 
-\section{Mesure du temps }
-\lstset{title={Mesure du temps de traversé de bout en bout.}}
-\lstinputlisting{./annexes/annexe1/mesureIntervalleTempsAvancerMaximal.c} %{language = MAtlab}
+\lstinputlisting[title={Mesure de $x$, le temps pour avancer d'un emplacement et de $y$, le temps pour poser ou prendre une pièce.}, firstline =97, lastline = 179, style = customc]{./annexes/annexe1/mesureDesTempsPhysique_X.c} %{language = MAtlab}
+\paragraph*{Résultat obtenu}Nous avons obtenu, à l'aide de ce code, l'affichage suivant:
+\begin{itemize}
+\item [\textbullet] "Avance  : $1.0$"
+\item [\textbullet] "Prendre : $3.0$"
+\end{itemize}
+
+\section{Mesure du temps dedéplacement de bout en bout}\label{Annex:MesuresXY-boutEnBout}
+\lstinputlisting[title={Mesure du temps de traversé de bout en bout.},
+	firstline =97, 
+	lastline = 165,
+	style = customc]{./annexes/annexe1/mesureIntervalleTempsAvancerMaximal-clean.c} %{language = MAtlab}
+	\paragraph*{Résultat obtenu}
+	Pour compléter l'analyse des temps de parcours, nous avons étoffé nos résultats avec une dernière mesure : une mesure du point de départ du chariot jusqu'à la fin du rail.  Cette dernière mesure nous a semblé utile car nous avons remarqué que l'espacement des bacs n'était pas tout à fait identique. Avec le code disponible ci-dessus, nous obtenons un temps de traversé de bout en bout de $t = 9$, soit une seconde de plus. Étant donné que nous ne pouvons pas utiliser de décimale dans les intervalles temporelles du RdP, nous ne pouvons pas exploiter cette légère différence avec le temps $t=8$ attendu.

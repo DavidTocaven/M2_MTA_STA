@@ -13,7 +13,7 @@
 \contentsline {part}{Annexes}{13}{part*.8}
 \contentsline {chapter}{Mesures de temps}{13}{chapter*.9}
 \contentsline {section}{\numberline {4.1}Mesure du temps de d\IeC {\'e}placement et de saisie/d\IeC {\'e}p\IeC {\^o}t d'une pi\IeC {\`e}ce}{13}{section.4.1}
-\contentsline {section}{\numberline {4.2}Mesure du temps }{19}{section.4.2}
-\contentsline {chapter}{Analyse TINA}{26}{chapter*.10}
-\contentsline {section}{\numberline {4.1}Analyse d'accessibilit\IeC {\'e} du mod\IeC {\`e}le 2 op\IeC {\'e}rations}{26}{section.4.1}
-\contentsline {section}{\numberline {4.2}Graphe des classes de Mise au point des Intervallles Temporelles}{30}{section.4.2}
+\contentsline {section}{\numberline {4.2}Mesure du temps ded\IeC {\'e}placement de bout en bout}{14}{section.4.2}
+\contentsline {chapter}{Analyse TINA}{17}{chapter*.10}
+\contentsline {section}{\numberline {4.1}Analyse d'accessibilit\IeC {\'e} du mod\IeC {\`e}le 2 op\IeC {\'e}rations}{17}{section.4.1}
+\contentsline {section}{\numberline {4.2}Graphe des classes de Mise au point des Intervallles Temporelles}{21}{section.4.2}
