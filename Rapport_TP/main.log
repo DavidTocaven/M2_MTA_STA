@@ -1,0 +1,948 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.13)  4 MAR 2018 02:33
+entering extended mode
+**./main.tex
+(main.tex
+LaTeX2e <2017-04-15>
+Babel <3.15> and hyphenation patterns for 0 language(s) loaded.
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\base\report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\base\size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\bbold\bbold.sty
+Package: bbold 1994/04/06 Bbold symbol package
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\soul\soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks14
+\SOUL@lasttoken=\toks15
+\SOUL@cmds=\toks16
+\SOUL@buffer=\toks17
+\SOUL@token=\toks18
+\SOUL@spaceskip=\skip43
+\SOUL@ttwidth=\dimen103
+\SOUL@uldp=\dimen104
+\SOUL@ulht=\dimen105
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\doublestroke\dsfont.sty
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\generic\babel\babel.sty
+Package: babel 2017/11/03 3.15 The Babel package
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\generic\babel\switch.def
+File: switch.def 2017/11/03 3.15 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\generic\babel-french\french.ldf
+Language: french 2017/10/19 v3.3d French support from the babel system
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\generic\babel\babel.def
+File: babel.def 2017/11/03 3.15 Babel common definitions
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\generic\babel\switch.def
+File: switch.def 2017/11/03 3.15 Babel switching mechanism
+)
+\babel@savecnt=\count88
+\U@D=\dimen106
+)
+\l@french = a dialect from \language\l@nohyphenation 
+
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language `French' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=nohyphenation instead on input l
+ine 44.
+
+\FB@nonchar=\count89
+\FBcolonsp=\toks19
+\FBthinsp=\toks20
+Package babel Info: Making : an active character on input line 322.
+Package babel Info: Making ; an active character on input line 323.
+Package babel Info: Making ! an active character on input line 324.
+Package babel Info: Making ? an active character on input line 325.
+\FBguillsp=\toks21
+\FBguill@level=\count90
+\FB@everypar=\toks22
+\FB@Mht=\dimen107
+\mc@charclass=\count91
+\mc@charfam=\count92
+\mc@charslot=\count93
+\std@mcc=\count94
+\dec@mcc=\count95
+\c@FBcaption@count=\count96
+\listindentFB=\skip44
+\descindentFB=\skip45
+\labelwidthFB=\skip46
+\leftmarginFB=\skip47
+\parindentFFN=\dimen108
+\FBfnindent=\skip48
+)) (C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\carlisle\scalefnt.sty)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks23
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\base\inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks24
+\inpenc@posthook=\toks25
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\utf8x.def
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\ucs.sty
+Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\uni-global.def
+File: uni-global.def 2013/05/13 UCS: Unicode global data
+)
+\uc@secondtry=\count97
+\uc@combtoks=\toks26
+\uc@combtoksb=\toks27
+\uc@temptokena=\toks28
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count98
+\float@exts=\toks29
+\float@box=\box26
+\@float@everytoks=\toks30
+\@floatcapt=\box27
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\amsmath\amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks31
+\ex@=\dimen109
+))
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen110
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count99
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count100
+\leftroot@=\count101
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count102
+\DOTSCASE@=\count103
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen111
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count104
+\c@MaxMatrixCols=\count105
+\dotsspace@=\muskip10
+\c@parentequation=\count106
+\dspbrk@lvl=\count107
+\tag@help=\toks32
+\row@=\count108
+\column@=\count109
+\maxfields@=\count110
+\andhelp@=\toks33
+\eqnshift@=\dimen112
+\alignsep@=\dimen113
+\tagshift@=\dimen114
+\tagwidth@=\dimen115
+\totwidth@=\dimen116
+\lineht@=\dimen117
+\@envbody=\toks34
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks35
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\jknappen\mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup4
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\graphics-def\pdftex.def
+File: pdftex.def 2017/12/07 v1.0i Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\hyperref\hyperref.sty
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\generic\oberdiek\hobsub-hyperref
+.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\generic\oberdiek\hobsub-generic.
+sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\generic\ifxetex\ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\oberdiek\auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\oberdiek\kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen118
+\Hy@linkcounter=\count111
+\Hy@pagecounter=\count112
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\hyperref\pd1enc.def
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count113
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\00miktex\hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count114
+LaTeX Info: Redefining \url on input line 5104.
+\XeTeXLinkMargin=\dimen119
+\Fld@menulength=\count115
+\Field@Width=\dimen120
+\Fld@charsize=\dimen121
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count116
+\c@Item=\count117
+\c@Hfootnote=\count118
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\hyperref\hpdftex.def
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count119
+\c@bookmark@seq@number=\count120
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\oberdiek\rerunfilecheck.st
+y
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip52
+) (C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\tools\array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen122
+\extrarowheight=\dimen123
+\NC@list=\toks36
+\extratabsurround=\skip53
+\backup@length=\skip54
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\tools\tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+\TX@col@width=\dimen124
+\TX@old@table=\dimen125
+\TX@old@col=\dimen126
+\TX@target=\dimen127
+\TX@delta=\dimen128
+\TX@cols=\count121
+\TX@ftn=\toks37
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\abstract\abstract.sty
+Package: abstract 2009/06/08 v1.2a configurable abstracts
+\abstitleskip=\skip55
+\absleftindent=\skip56
+\absrightindent=\skip57
+\absparindent=\skip58
+\absparsep=\skip59
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\base\fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\base\t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\geometry\geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count122
+\Gm@cntv=\count123
+\c@Gm@tempcnt=\count124
+\Gm@bindingoffset=\dimen129
+\Gm@wd@mp=\dimen130
+\Gm@odd@mp=\dimen131
+\Gm@even@mp=\dimen132
+\Gm@layoutwidth=\dimen133
+\Gm@layoutheight=\dimen134
+\Gm@layouthoffset=\dimen135
+\Gm@layoutvoffset=\dimen136
+\Gm@dimlist=\toks38
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\geometry\geometry.cfg))
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pdfpages.sty
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\tools\calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count125
+\calc@Bcount=\count126
+\calc@Adimen=\dimen137
+\calc@Bdimen=\dimen138
+\calc@Askip=\skip60
+\calc@Bskip=\skip61
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count127
+\calc@Cskip=\skip62
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\eso-pic\eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\graphics\graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\graphics\graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+\AM@pagewidth=\dimen141
+\AM@pageheight=\dimen142
+ (C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pppdftex.def
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box30
+\AM@global@opts=\toks39
+\AM@toc@title=\toks40
+\c@AM@survey=\count128
+\AM@templatesizebox=\box31
+) (C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen143
+\captionmargin@=\dimen144
+\captionwidth=\dimen145
+\caption@tempdima=\dimen146
+\caption@indent=\dimen147
+\caption@parindent=\dimen148
+\caption@hangindent=\dimen149
+)
+\c@ContinuedFloat=\count129
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
+\c@KVtest=\count130
+\sf@farskip=\skip63
+\sf@captopadj=\dimen150
+\sf@capskip=\skip64
+\sf@nearskip=\skip65
+\c@subfigure=\count131
+\c@subfigure@save=\count132
+\c@lofdepth=\count133
+\c@subtable=\count134
+\c@subtable@save=\count135
+\c@lotdepth=\count136
+\sf@top=\skip66
+\sf@bottom=\skip67
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+\lst@mode=\count137
+\lst@gtempboxa=\box32
+\lst@token=\toks41
+\lst@length=\count138
+\lst@currlwidth=\dimen151
+\lst@column=\count139
+\lst@pos=\count140
+\lst@lostspace=\dimen152
+\lst@width=\dimen153
+\lst@newlines=\count141
+\lst@lineno=\count142
+\lst@maxwidth=\dimen154
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count143
+\lst@skipnumbers=\count144
+\lst@framebox=\box33
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\enumitem\enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip68
+\enit@outerparindent=\dimen155
+\enit@toks=\toks42
+\enit@inbox=\box34
+\enitdp@description=\count145
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box35
+\beforetitleunit=\skip69
+\aftertitleunit=\skip70
+\ttl@plus=\dimen156
+\ttl@minus=\dimen157
+\ttl@toksa=\toks43
+\titlewidth=\dimen158
+\titlewidthlast=\dimen159
+\titlewidthfirst=\dimen160
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\blindtext\blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count146
+\c@Blindtext=\count147
+\c@blind@countparstart=\count148
+\blind@countxx=\count149
+\blindtext@numBlindtext=\count150
+\blind@countyy=\count151
+\c@blindlist=\count152
+\c@blindlistlevel=\count153
+\c@blindlist@level=\count154
+\blind@listitem=\count155
+\c@blind@listcount=\count156
+\c@blind@levelcount=\count157
+\blind@mathformula=\count158
+\blind@Mathformula=\count159
+\c@blind@randomcount=\count160
+\c@blind@randommax=\count161
+\c@blind@pangramcount=\count162
+\c@blind@pangrammax=\count163
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+)
+\c@cpt1=\count164
+ (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Info: Redefining \degres on input line 80.
+LaTeX Info: Redefining \dots on input line 80.
+Package french.ldf Info: Setting StandardItemizeEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 80.
+Package french.ldf Info: Setting StandardEnumerateEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 80.
+LaTeX Info: Redefining \up on input line 80.
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\ucsencs.def
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count165
+\scratchdimen=\dimen161
+\scratchbox=\box36
+\nofMPsegments=\count166
+\nofMParguments=\count167
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count168
+\MPscratchDim=\dimen162
+\MPnumerator=\count169
+\makeMPintoPDFobject=\count170
+\everyMPtoPDFconversion=\toks45
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\oberdiek\epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\oberdiek\grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\AtBeginShipoutBox=\box37
+Package hyperref Info: Link coloring OFF on input line 80.
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\hyperref\nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\generic\oberdiek\gettitlestring.
+sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count171
+)
+LaTeX Info: Redefining \ref on input line 80.
+LaTeX Info: Redefining \pageref on input line 80.
+LaTeX Info: Redefining \nameref on input line 80.
+ (main.out) (main.out)
+\@outlinefile=\write3
+\openout3 = `main.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\oberdiek\pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\graphics\lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count172
+
+(page_de_garde/page_de_garde.tex
+<./page_de_garde/logo_ups.png, id=86, 941.76843pt x 304.88907pt>
+File: ./page_de_garde/logo_ups.png Graphic file (type png)
+<use ./page_de_garde/logo_ups.png>
+Package pdftex.def Info: ./page_de_garde/logo_ups.png  used on input line 11.
+(pdftex.def)             Requested size: 290.22107pt x 93.95636pt.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 31.
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+<./page_de_garde/M2ASTR-TP-MACSED-STA.jpg, id=88, 449.0563pt x 235.40373pt>
+File: ./page_de_garde/M2ASTR-TP-MACSED-STA.jpg Graphic file (type jpg)
+<use ./page_de_garde/M2ASTR-TP-MACSED-STA.jpg>
+Package pdftex.def Info: ./page_de_garde/M2ASTR-TP-MACSED-STA.jpg  used on inpu
+t line 44.
+(pdftex.def)             Requested size: 290.22107pt x 152.14494pt.
+<./page_de_garde/logo_fsi.png, id=89, 383.4325pt x 132.495pt>
+File: ./page_de_garde/logo_fsi.png Graphic file (type png)
+<use ./page_de_garde/logo_fsi.png>
+Package pdftex.def Info: ./page_de_garde/logo_fsi.png  used on input line 49.
+(pdftex.def)             Requested size: 164.67969pt x 56.9055pt.
+<./page_de_garde/logo_eea.jpg, id=90, 105.39375pt x 124.465pt>
+File: ./page_de_garde/logo_eea.jpg Graphic file (type jpg)
+<use ./page_de_garde/logo_eea.jpg>
+Package pdftex.def Info: ./page_de_garde/logo_eea.jpg  used on input line 51.
+(pdftex.def)             Requested size: 48.18741pt x 56.9055pt.
+
+[1
+
+{C:/Users/David/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./page_de_g
+arde/logo_ups.png> <./page_de_garde/M2ASTR-TP-MACSED-STA.jpg> <./page_de_garde/
+logo_fsi.png> <./page_de_garde/logo_eea.jpg>])pdfTeX warning (ext4): destinatio
+n with the same identifier (name{page.1}) has been already used, duplicate igno
+red
+<to be read again> 
+                   \relax 
+l.107 \tableofcontents
+                       [1] (main.toc)
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ (I/chap1.tex [0
+
+]
+Chapitre 1.
+
+Overfull \hbox (22.58247pt too wide) in paragraph at lines 1--1
+|[]\T1/cmr/bx/n/24.88 Modélisation et analyse de la réalisation
+ []
+
+
+Overfull \hbox (2.88065pt too wide) in paragraph at lines 2--3
+\T1/cmr/m/n/10 d'une opération. Cette modélisation sera générique à la réalisat
+ion de toute opération $\OML/cmm/m/it/10 O[]$\T1/cmr/m/n/10 . Ensuite, nous réa
+liserons
+ []
+
+<./I/images/III-1_v3.pdf, id=141, 499.8675pt x 507.89754pt>
+File: ./I/images/III-1_v3.pdf Graphic file (type pdf)
+<use ./I/images/III-1_v3.pdf>
+Package pdftex.def Info: ./I/images/III-1_v3.pdf  used on input line 8.
+(pdftex.def)             Requested size: 275.71075pt x 280.1505pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.18 Ã€
+        partir de cet Ã©tat, il y a deux jetons dans le rÃ©seau : un permet ...
+[1
+
+ <./I/images/III-1_v3.pdf>]
+
+LaTeX Warning: Command \c invalid in math mode on input line 20.
+
+Missing character: There is no ç in font cmr10!
+<./I/images/III-1_v3_esti.pdf, id=174, 697.60625pt x 676.5275pt>
+File: ./I/images/III-1_v3_esti.pdf Graphic file (type pdf)
+<use ./I/images/III-1_v3_esti.pdf>
+Package pdftex.def Info: ./I/images/III-1_v3_esti.pdf  used on input line 46.
+(pdftex.def)             Requested size: 154.7812pt x 150.10623pt.
+
+Underfull \hbox (badness 2951) in paragraph at lines 47--47
+[]\T1/cmr/m/sc/10 Figure \T1/cmr/m/n/10 1.2  |[]Modèle réseau de Petri
+ []
+
+<./I/images/III-1_v3_aut.pdf, id=175, 343.36665pt x 180.9526pt>
+File: ./I/images/III-1_v3_aut.pdf Graphic file (type pdf)
+<use ./I/images/III-1_v3_aut.pdf>
+Package pdftex.def Info: ./I/images/III-1_v3_aut.pdf  used on input line 51.
+(pdftex.def)             Requested size: 252.48883pt x 133.06067pt.
+[2 <./I/images/III-1_v3_esti.pdf> <./I/images/III-1_v3_aut.pdf>]) (II/chap2.tex
+[3]
+Chapitre 2.
+<./II/images/reseau_CommandeIII-2.pdf, id=198, 495.8525pt x 857.2025pt>
+File: ./II/images/reseau_CommandeIII-2.pdf Graphic file (type pdf)
+<use ./II/images/reseau_CommandeIII-2.pdf>
+Package pdftex.def Info: ./II/images/reseau_CommandeIII-2.pdf  used on input li
+ne 10.
+(pdftex.def)             Requested size: 422.98984pt x 731.23584pt.
+
+LaTeX Warning: Float too large for page by 22.0pt on input line 12.
+
+[4
+
+] [5 <./II/images/reseau_CommandeIII-2.pdf>]
+<./II/images/reseau-AnalyseIII-2.pdf, id=214, 490.83376pt x 861.2175pt>
+File: ./II/images/reseau-AnalyseIII-2.pdf Graphic file (type pdf)
+<use ./II/images/reseau-AnalyseIII-2.pdf>
+Package pdftex.def Info: ./II/images/reseau-AnalyseIII-2.pdf  used on input lin
+e 39.
+(pdftex.def)             Requested size: 325.0747pt x 570.36305pt.
+ [6 <./II/images/reseau-AnalyseIII-2.pdf>]
+<./II/images/reseau-AjustementIII-2.pdf, id=228, 490.83376pt x 861.2175pt>
+File: ./II/images/reseau-AjustementIII-2.pdf Graphic file (type pdf)
+<use ./II/images/reseau-AjustementIII-2.pdf>
+Package pdftex.def Info: ./II/images/reseau-AjustementIII-2.pdf  used on input 
+line 88.
+(pdftex.def)             Requested size: 416.76129pt x 731.23584pt.
+
+
+LaTeX Warning: Float too large for page by 22.0pt on input line 90.
+
+) (III/chap3.tex [7] [8 <./II/images/reseau-AjustementIII-2.pdf>]
+Chapitre 3.
+
+Overfull \hbox (28.11073pt too wide) in paragraph at lines 1--1
+|[]\T1/cmr/bx/n/24.88 Modélisation des séquences d'opérations
+ []
+
+
+Overfull \hbox (3.57669pt too wide) in paragraph at lines 4--5
+[]\T1/cmr/m/n/10 Nous avons décidé d'étudier l'ordonnancement optimal par un ch
+ronogramme car nous avons trouvé l'approche
+ []
+
+<./III/images/ordo.pdf, id=247, 1117.33426pt x 444.85999pt>
+File: ./III/images/ordo.pdf Graphic file (type pdf)
+<use ./III/images/ordo.pdf>
+Package pdftex.def Info: ./III/images/ordo.pdf  used on input line 8.
+(pdftex.def)             Requested size: 483.69687pt x 192.58257pt.
+
+LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <6.49994> not available
+(Font)              size <6> substituted on input line 12.
+
+<./III/images/reseau_Analyse--III-3.pdf, id=250, 1551.7975pt x 907.39pt>
+File: ./III/images/reseau_Analyse--III-3.pdf Graphic file (type pdf)
+<use ./III/images/reseau_Analyse--III-3.pdf>
+Package pdftex.def Info: ./III/images/reseau_Analyse--III-3.pdf  used on input 
+line 18.
+(pdftex.def)             Requested size: 483.69687pt x 282.82486pt.
+[9
+
+ <./III/images/ordo.pdf>]
+<./III/images/reseau_Commande--III-3.pdf, id=2158, 1551.7975pt x 907.39pt>
+File: ./III/images/reseau_Commande--III-3.pdf Graphic file (type pdf)
+<use ./III/images/reseau_Commande--III-3.pdf>
+Package pdftex.def Info: ./III/images/reseau_Commande--III-3.pdf  used on input
+ line 28.
+(pdftex.def)             Requested size: 483.69687pt x 282.82486pt.
+
+Overfull \hbox (14.35295pt too wide) in paragraph at lines 25--31
+[]\T1/cmr/m/n/10 Afin d'étudier la commande, nous avons ajouté au modèle de com
+mande précédent (figure []3.2[]) des temporisations
+ []
+
+[10 <./III/images/reseau_Analyse--III-3.pdf>]) (annexes/annexes.tex [11 <./III/
+images/reseau_Commande--III-3.pdf>] [12
+
+] (annexes/annexe1/annexe1.texpdfTeX warning (ext4): destination with the same 
+identifier (name{section.3.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.32 ...acement et de saisie/dÃ©pÃ´t d'une piÃ¨ce}
+                                                  
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+)
+(annexes/annexe1/mesureDesTempsPhysique_X.c
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 99.
+
+(C:\Users\David\AppData\Roaming\MiKTeX\2.9\tex\latex\base\omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 99.
+ [13
+
+])
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
+pdfTeX warning (ext4): destination with the same identifier (name{section.3.2})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.42 ...e du temps dedÃ©placement de bout en bout}
+                                                  \label{Annex:MesuresXY-bou...
+(annexes/annexe1/mesureIntervalleTempsAvancerMaximal-clean.c [14] [15]))
+(annexes/annexe2/annexe2.tex [16]pdfTeX warning (ext4): destination with the sa
+me identifier (name{section.3.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.7 ... d'accessibilitÃ© du modÃ¨le 2 opÃ©rations}
+                                                  \label{Annex:analyse}
+(annexes/annexe2/reseau-AnalyseIII-2-tina-W.txt [17
+
+] [18] [19] [20])pdfTeX warning (ext4): destination with the same identifier (n
+ame{section.3.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.14 ...ise au point des Intervallles Temporelles}
+                                                  
+(annexes/annexe2/reseau-AjustementIII-2-tina-W-ope1.txt [21] [22])
+(annexes/annexe2/reseau-AjustementIII-2-tina-W-ope2.txt [23] [24] [25]))
+(annexes/annexe3/annexe3.tex [26]pdfTeX warning (ext4): destination with the sa
+me identifier (name{section.3.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.7 ... d'accessibilitÃ© du modÃ¨le 3 opÃ©rations}
+                                                  
+(annexes/annexe3/reseau_Analyse--III-3-tina-W.txt [27
+
+] [28] [29] [30] [31])))
+[32]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 154.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 154.
+ (main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 0D81BFD377D4AED61F03DDA2CA74F0D2;1910.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.49994pt have occurred.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 154.
+ ) 
+Here is how much of TeX's memory you used:
+ 15248 strings out of 495229
+ 226769 string characters out of 3181267
+ 527571 words of memory out of 3000000
+ 16917 multiletter control sequences out of 15000+200000
+ 25037 words of font info for 57 fonts, out of 3000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 44i,11n,59p,1111b,1960s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\David\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ecrm0800.pk> <C:\Users\David\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecrm0600.pk> <C:\Users\David\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\eccc1000.pk> <C:\Users\David\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk> <C:\Users\David\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\David\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\David\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Us
+ers\David\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc1200.
+pk> <C:\Users\David\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\ecbx1200.pk> <C:\Users\David\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
+\ec\dpi600\eccc1200.pk> <C:\Users\David\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
+r\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\David\AppData\Local\MiKTeX\2.9\font
+s\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\David\AppData\Local\MiKTe
+X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc2074.pk> <C:\Users\David\AppData\L
+ocal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\David
+\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\U
+sers\David\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1728
+.pk><C:/Users/David/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/c
+mex10.pfb><C:/Users/David/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb><C:/Users/David/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/a
+msfonts/cm/cmmi12.pfb><C:/Users/David/AppData/Roaming/MiKTeX/2.9/fonts/type1/pu
+blic/amsfonts/cm/cmmi5.pfb><C:/Users/David/AppData/Roaming/MiKTeX/2.9/fonts/typ
+e1/public/amsfonts/cm/cmmi7.pfb><C:/Users/David/AppData/Roaming/MiKTeX/2.9/font
+s/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/David/AppData/Roaming/MiKTeX/2.9
+/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/David/AppData/Roaming/MiKTeX
+/2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/David/AppData/Roaming/Mi
+KTeX/2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/David/AppData/Roam
+ing/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (35 pages, 1157994 bytes).
+PDF statistics:
+ 4343 PDF objects out of 5155 (max. 8388607)
+ 1338 named destinations out of 1440 (max. 500000)
+ 242 words of extra memory for PDF output out of 10000 (max. 10000000)
+

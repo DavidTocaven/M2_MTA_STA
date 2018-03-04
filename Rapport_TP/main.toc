@@ -1,0 +1,23 @@
+\select@language {french}
+\contentsline {chapter}{\numberline {1}Mod\IeC {\'e}lisation et analyse de la r\IeC {\'e}alisation d'une op\IeC {\'e}ration}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Mod\IeC {\`e}le r\IeC {\'e}seau de Petri temporel d'une op\IeC {\'e}ration}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Estimation de Prise/Pose et Avance/Recule}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Analyse du mod\IeC {\`e}le}{2}{section.1.3}
+\contentsline {chapter}{\numberline {2}Mod\IeC {\'e}lisation et analyse des premi\IeC {\`e}res op\IeC {\'e}rations de chaque pi\IeC {\`e}ce}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}R\IeC {\'e}seau de PETRI Temporel de commande de deux op\IeC {\'e}rations}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}Analyse du mod\IeC {\`e}le avec TINA}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}Mise au point des Intervalles Temporelles}{7}{section.2.3}
+\contentsline {chapter}{\numberline {3}Mod\IeC {\'e}lisation des s\IeC {\'e}quences d'op\IeC {\'e}rations des deux pi\IeC {\`e}ces}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Analyse d'ordonnancement}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}R\IeC {\'e}seau de Petri de commande}{10}{section.3.2}
+\contentsline {section}{\numberline {3.3}Analyse par graphe de classes}{10}{section.3.3}
+\contentsline {section}{\numberline {3.4}Impl\IeC {\'e}mentation}{11}{section.3.4}
+\contentsline {part}{Annexes}{13}{part*.10}
+\contentsline {chapter}{Mesures de temps}{13}{chapter*.11}
+\contentsline {section}{\numberline {3.1}Mesure du temps de d\IeC {\'e}placement et de saisie/d\IeC {\'e}p\IeC {\^o}t d'une pi\IeC {\`e}ce}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}Mesure du temps ded\IeC {\'e}placement de bout en bout}{14}{section.3.2}
+\contentsline {chapter}{Analyse TINA}{17}{chapter*.12}
+\contentsline {section}{\numberline {3.1}Analyse d'accessibilit\IeC {\'e} du mod\IeC {\`e}le 2 op\IeC {\'e}rations}{17}{section.3.1}
+\contentsline {section}{\numberline {3.2}Graphe des classes de Mise au point des Intervallles Temporelles}{21}{section.3.2}
+\contentsline {chapter}{Analyse TINA}{27}{chapter*.13}
+\contentsline {section}{\numberline {3.1}Analyse d'accessibilit\IeC {\'e} du mod\IeC {\`e}le 3 op\IeC {\'e}rations}{27}{section.3.1}
